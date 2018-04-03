@@ -1,6 +1,6 @@
 # Documentation Contribution Guidelines
 
-First of all, thank you for your interest in contributing to Rocket.Chat Docs.
+First of all, thank you for your interest in contributing to Goalify.Chat Docs.
 If this is the first Open Source project you will contribute to,
 we strongly suggest reading GitHub's excellent guide
 ["Contributing to Open Source"](https://guides.github.com/activities/contributing-to-open-source/).
@@ -11,7 +11,7 @@ When looking for something to work on, you have two options:
 
 ### 1. The Documentation Map
 
-You can find a map of all the files on the documentation [here](../documentation-map). There you can find what articles are missing or incomplete. This page was created so is easier for the Rocket.Chat team and the community to know the status of the documentation and what they can do to improve it.
+You can find a map of all the files on the documentation [here](../documentation-map). There you can find what articles are missing or incomplete. This page was created so is easier for the Goalify.Chat team and the community to know the status of the documentation and what they can do to improve it.
 
 Missing articles will be marked as <span style="color:red"> red </span>
 
@@ -21,7 +21,7 @@ All missing/incomplete articles are links to a list with the description of each
 
 ### 2. Issues
 
-You can find a list of issues [here](https://github.com/RocketChat/Rocket.Chat.Docs/issues).
+You can find a list of issues [here](https://github.com/goalifyplus/Goalify.Chat.Docs/issues).
 When you find something you would like to work on just comment on it and we will add an __In Progress__ label.
 
 - - -
@@ -73,9 +73,9 @@ You have to note that the name you put on the table of content will be _slugfied
 
 E.g.
 
-If you add a page called `Testing Rocket.Chat Apps`, it will be converted to `testing-rocketchat-apps`, so you will have to name your file `testing-rocketchat-apps.md`
+If you add a page called `Testing Goalify.Chat Apps`, it will be converted to `testing-rocketchat-apps`, so you will have to name your file `testing-rocketchat-apps.md`
 
-All words will be lowercased, spaces will be replaced with a `-` and any special character will be removed (like the `.` on `Rocket.Chat`)
+All words will be lowercased, spaces will be replaced with a `-` and any special character will be removed (like the `.` on `Goalify.Chat`)
 
 - - -
 

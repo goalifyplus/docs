@@ -2,7 +2,7 @@
 
 ## Composing messages
 
-Sending messages in Rocket.Chat is self-explanatory: type a message in the message box and press <kbd>Enter</kbd> or the Send Button.
+Sending messages in Goalify.Chat is self-explanatory: type a message in the message box and press <kbd>Enter</kbd> or the Send Button.
 
 If you want to send multiple lines of text, press <kbd>Shift</kbd> + <kbd>Enter</kbd> to add a new line.
 
@@ -22,7 +22,7 @@ You can also notify everyone in a channel by typing `@all`. But avoid using `@al
 
 ## Sending attachments
 
-In Rocket.Chat you can send a variety of attachments on your message, like files, audio, links, videos, and many more.
+In Goalify.Chat you can send a variety of attachments on your message, like files, audio, links, videos, and many more.
 
 To access the attachment menu you can simply click on the plus (+) icon on the message input.
 
@@ -31,7 +31,7 @@ To access the attachment menu you can simply click on the plus (+) icon on the m
 You can select files using three methods:
 
 - By selecting the `Select Files from Computer` option from the attachment menu;
-- By dragging and dropping the file on Rocket.Chat;
+- By dragging and dropping the file on Goalify.Chat;
 - By pasting a image from the clipboard;
 
 After Selecting the file, you will be prompted to add a name and a description to it. After that just press send.
@@ -40,7 +40,7 @@ _Be aware that the server administrator can block certain file types from being 
 
 ### Audio
 
-Before sending a audio message, if you are using a browser, you need to give Rocket.Chat permission to use your microphone.
+Before sending a audio message, if you are using a browser, you need to give Goalify.Chat permission to use your microphone.
 
 To start recording you can simply click on the `Create new Audio Message` option on the attachment menu. To stop recording just press the same option again.
 
@@ -48,7 +48,7 @@ You will have the chance to listen to the message before sending it.
 
 ### Video
 
-Before sending a audio message, if you are using a browser, you need to give Rocket.Chat permission to use your camera.
+Before sending a audio message, if you are using a browser, you need to give Goalify.Chat permission to use your camera.
 
 To start recording you can simply click on the `Create new Video Message` option on the attachment menu.
 
@@ -62,7 +62,7 @@ When you send a link in a message, you will get a preview of the site, and in so
 
 ### Location
 
-Before sharing your location if you are using a browser, you need to give Rocket.Chat permission to use your current location.
+Before sharing your location if you are using a browser, you need to give Goalify.Chat permission to use your current location.
 
 To share your location, click on the option `Share My Location`, that will send a message with a map preview and a link to Google Maps on your current location.
 
@@ -96,7 +96,7 @@ You can interact with already posted messages too. To open the message actions m
 
 To edit a message, click on the `edit` option on the message actions menu. Alternatively, in the message input box, press the `Up Arrow` to edit the last message sent.
 
-_The administrator of a Rocket.Chat team sets the permissions for who can edit messages from other users. By default, only administrators, moderators, and owners of the channels can edit messages from other users._
+_The administrator of a Goalify.Chat team sets the permissions for who can edit messages from other users. By default, only administrators, moderators, and owners of the channels can edit messages from other users._
 
 #### Switching messages to edit
 
@@ -106,7 +106,7 @@ Similarly, if the cursor is at the **end** of a message, pressing the `Down Arro
 
 #### Drafting messages
 
-Rocket.Chat saves drafts of edits to your messages. That way, you can return to an edit draft after switching to another message. Pressing `ESCAPE` discards an edit draft.
+Goalify.Chat saves drafts of edits to your messages. That way, you can return to an edit draft after switching to another message. Pressing `ESCAPE` discards an edit draft.
 
 #### Deleting messages
 
@@ -126,7 +126,7 @@ Starred messages are per chat room and are not global, each room has its own lis
 
 Pinning a message to a channel causes the message to be easily accessible via pinned messages tab. <!-- TODO: add link to pinned message tab -->  To pin a message, select the `pin-message` option on the message actions menu, to un-pin it just select the `unpin` option on the message actions menu.
 
-_The administrator of a Rocket.Chat team sets the permissions for who can pin messages in a channel. By default, only administrators, moderators, and owners of the channel can pin messages ._
+_The administrator of a Goalify.Chat team sets the permissions for who can pin messages in a channel. By default, only administrators, moderators, and owners of the channel can pin messages ._
 
 ### Reactions
 

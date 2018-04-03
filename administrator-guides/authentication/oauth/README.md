@@ -1,6 +1,6 @@
 # OAuth Provider Configuration
 
-Rocket.Chat supports several different ways to authenticate, beyond the basic username/password authentication. Most of these authentication providers require a `clientID` and a `secret`. Below are brief descriptions of how to set up each provider.
+Goalify.Chat supports several different ways to authenticate, beyond the basic username/password authentication. Most of these authentication providers require a `clientID` and a `secret`. Below are brief descriptions of how to set up each provider.
 
 These settings are in the `Accounts` setting page under `Administration`.
 

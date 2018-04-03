@@ -4,7 +4,7 @@ The CSV importer allows you to import your own plain text files, however it does
 
 ## The Zip File
 
-The zip file must be a **flat zip**, which means there can **not** be a "root" or "sub" folder in which the items reside in the zip file. The importer looks for the files `channels.csv` and `users.csv` immediately inside the zip and not inside of any folder. If you have any questions about this, please ask in [#support channel on the Community server](https://open.rocket.chat/channel/support).
+The zip file must be a **flat zip**, which means there can **not** be a "root" or "sub" folder in which the items reside in the zip file. The importer looks for the files `channels.csv` and `users.csv` immediately inside the zip and not inside of any folder. If you have any questions about this, please ask in [#support channel on the Community server](https://demo.goalify.chat/channel/support).
 
     fileToImport.zip
     ├── channels.csv
@@ -70,6 +70,6 @@ The message csv files require a **very** specific format. Each line contains a n
 Once you have that all set up and zipped, then you can start the import process.
 
 1. Go to `https://[your_rocketchat]/admin/import/prepare/csv`
-2. Choose your `.zip` file and wait until Rocket.Chat can read it (it can take a few minutes, depending on the size of the file)
+2. Choose your `.zip` file and wait until Goalify.Chat can read it (it can take a few minutes, depending on the size of the file)
 3. Deselect any items you **don't** want to import
 4. At the top of the page, click on Start Importing

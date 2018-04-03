@@ -4,7 +4,7 @@ Notifications can be set with the bell setting at each channel or room. Some pre
 
 ## Desktop
 
-When starting Rocket.Chat, you are asked to allow desktop notifications. Notifications appear as small boxes on the right corner, depending on the general or per room settings.
+When starting Goalify.Chat, you are asked to allow desktop notifications. Notifications appear as small boxes on the right corner, depending on the general or per room settings.
 
 ## Mobile
 

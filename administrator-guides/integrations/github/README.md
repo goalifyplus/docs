@@ -14,7 +14,7 @@ We can do 2 types of integrations with GitHub:
 5. Copy-paste one of the example scripts below.
 6. Save the integration. This will generate a webhook URL and secret for you.
 7. Go to your repository `Settings -> WebHooks & services -> Add WebHook`
-8. Paste your **WebHook URL** from Rocket.Chat into **Payload URL**
+8. Paste your **WebHook URL** from Goalify.Chat into **Payload URL**
 9. Keep **Content type** as `application/json`
 10. Leave **Secret** empty and save
 
@@ -500,14 +500,14 @@ class Script {
 
 #### Customizing your integration scripts
 
-The purpose of the integration script is to transform data in one format (the format provided by your incoming service, such as Github) into another format (the format expected by Rocket.Chat). Therefore, should you wish to customize either of the scripts presented above, you will need two resources:
+The purpose of the integration script is to transform data in one format (the format provided by your incoming service, such as Github) into another format (the format expected by Goalify.Chat). Therefore, should you wish to customize either of the scripts presented above, you will need two resources:
 
 - [Github API specifications](https://developer.github.com/v3/)
-- [Specifications for Rocket.Chat integration message objects](../../integrations/index.html#incoming-script-details)
+- [Specifications for Goalify.Chat integration message objects](../../integrations/index.html#incoming-script-details)
 
 Note that data comes _into_ your script from Github as the `request.content` object.
 
-The Handlebars template used by Rocket.Chat to render messages from a JSON object may also be useful, and can be found [here](https://github.com/RocketChat/Rocket.Chat/blob/master/packages/rocketchat-message-attachments/client/messageAttachment.html).
+The Handlebars template used by Goalify.Chat to render messages from a JSON object may also be useful, and can be found [here](https://github.com/RocketChat/Rocket.Chat/blob/master/packages/rocketchat-message-attachments/client/messageAttachment.html).
 
 ### Send commands to GitHub
 

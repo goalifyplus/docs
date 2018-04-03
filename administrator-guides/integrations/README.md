@@ -1,6 +1,6 @@
 # Incoming WebHook Scripting
 
-With *Scripts* you can point any WebHook to Rocket.Chat and process the request to print customized messages, define the username and avatar of the *user* of the message and change the channel where the message will be posted or you can cancel the request to prevent undesired messages.
+With *Scripts* you can point any WebHook to Goalify.Chat and process the request to print customized messages, define the username and avatar of the *user* of the message and change the channel where the message will be posted or you can cancel the request to prevent undesired messages.
 
 ## How to create a new Incoming WebHook
 
@@ -11,7 +11,7 @@ With *Scripts* you can point any WebHook to Rocket.Chat and process the request 
 - Set **Script Enabled** to **True**
 - Paste your script inside the **Script** field
 - Save the integration
-- Use the generated **WebHook URL** to POST messages to Rocket.Chat
+- Use the generated **WebHook URL** to POST messages to Goalify.Chat
 
 ## Incoming Script Details
 
@@ -21,7 +21,7 @@ The script expects a global class called **Script**, this class will be instanti
 
 The class should have a method called **process_incoming_request**, this method will be called every time your server receive a new request, will be called with an Object as parameter containing the **request** property.
 
-The **process_incoming_request** method should return an object with a property **content** containing a valid Rocket.Chat message or an object with a property **error** that will be returned as the response of the request in JSON format and status code **400**.
+The **process_incoming_request** method should return an object with a property **content** containing a valid Goalify.Chat message or an object with a property **error** that will be returned as the response of the request in JSON format and status code **400**.
 
 To help debug your script, you can use the **console** methods to log information.  More information about console can be found [here](https://developer.mozilla.org/en-US/docs/Web/API/Console/log). To view the logs go to Administration -> View Logs.
 
@@ -64,18 +64,18 @@ class Script {
         // "attachments": [{
         //   "color": "#FF0000",
         //   "author_name": "Rocket.Cat",
-        //   "author_link": "https://open.rocket.chat/direct/rocket.cat",
-        //   "author_icon": "https://open.rocket.chat/avatar/rocket.cat.jpg",
-        //   "title": "Rocket.Chat",
-        //   "title_link": "https://rocket.chat",
-        //   "text": "Rocket.Chat, the best open source chat",
+        //   "author_link": "https://demo.goalify.chat/direct/rocket.cat",
+        //   "author_icon": "https://demo.goalify.chat/avatar/rocket.cat.jpg",
+        //   "title": "Goalify.Chat",
+        //   "title_link": "https://docs.goalify.chat",
+        //   "text": "Goalify.Chat, the best open source chat",
         //   "fields": [{
         //     "title": "Priority",
         //     "value": "High",
         //     "short": false
         //   }],
-        //   "image_url": "https://rocket.chat/images/mockup.png",
-        //   "thumb_url": "https://rocket.chat/images/mockup.png"
+        //   "image_url": "https://docs.goalify.chat/images/mockup.png",
+        //   "thumb_url": "https://docs.goalify.chat/images/mockup.png"
         // }]
        }
     };
@@ -92,7 +92,7 @@ class Script {
 
 ## Outgoing WebHook Scripting
 
-With *Scripts* you can process all messages from a channel and change how Rocket.Chat will do the request or cancel the request. You can cancel the request and return a message or just do nothing. You can do another requests inside the script using the global helper **HTTP**.
+With *Scripts* you can process all messages from a channel and change how Goalify.Chat will do the request or cancel the request. You can cancel the request and return a message or just do nothing. You can do another requests inside the script using the global helper **HTTP**.
 
 The response of the request will execute the script too, calling another method so you can process the response as you can do in **Incoming WebHooks**
 
@@ -119,7 +119,7 @@ The **prepare_outgoing_request** method should return an object with, at least, 
 
 The class can have a method called **process_outgoing_response**, this method will be called for every response of the request, will be called with an Object as parameter containing the **request** property (the object you returned in the previous method) and **response** property.
 
-The **process_outgoing_response** method can return nothing to proceed the default processing, can return **false** to stop or an object with the property **content** containing a valid Rocket.Chat message.
+The **process_outgoing_response** method can return nothing to proceed the default processing, can return **false** to stop or an object with the property **content** containing a valid Goalify.Chat message.
 
 ```javascript
 /* exported Script */
@@ -178,18 +178,18 @@ class Script {
           // "attachments": [{
           //   "color": "#FF0000",
           //   "author_name": "Rocket.Cat",
-          //   "author_link": "https://open.rocket.chat/direct/rocket.cat",
-          //   "author_icon": "https://open.rocket.chat/avatar/rocket.cat.jpg",
-          //   "title": "Rocket.Chat",
-          //   "title_link": "https://rocket.chat",
-          //   "text": "Rocket.Chat, the best open source chat",
+          //   "author_link": "https://demo.goalify.chat/direct/rocket.cat",
+          //   "author_icon": "https://demo.goalify.chat/avatar/rocket.cat.jpg",
+          //   "title": "Goalify.Chat",
+          //   "title_link": "https://docs.goalify.chat",
+          //   "text": "Goalify.Chat, the best open source chat",
           //   "fields": [{
           //     "title": "Priority",
           //     "value": "High",
           //     "short": false
           //   }],
-          //   "image_url": "https://rocket.chat/images/mockup.png",
-          //   "thumb_url": "https://rocket.chat/images/mockup.png"
+          //   "image_url": "https://docs.goalify.chat/images/mockup.png",
+          //   "thumb_url": "https://docs.goalify.chat/images/mockup.png"
           // }]
         }
       };
@@ -226,18 +226,18 @@ class Script {
         // "attachments": [{
         //   "color": "#FF0000",
         //   "author_name": "Rocket.Cat",
-        //   "author_link": "https://open.rocket.chat/direct/rocket.cat",
-        //   "author_icon": "https://open.rocket.chat/avatar/rocket.cat.jpg",
-        //   "title": "Rocket.Chat",
-        //   "title_link": "https://rocket.chat",
-        //   "text": "Rocket.Chat, the best open source chat",
+        //   "author_link": "https://demo.goalify.chat/direct/rocket.cat",
+        //   "author_icon": "https://demo.goalify.chat/avatar/rocket.cat.jpg",
+        //   "title": "Goalify.Chat",
+        //   "title_link": "https://docs.goalify.chat",
+        //   "text": "Goalify.Chat, the best open source chat",
         //   "fields": [{
         //     "title": "Priority",
         //     "value": "High",
         //     "short": false
         //   }],
-        //   "image_url": "https://rocket.chat/images/mockup.png",
-        //   "thumb_url": "https://rocket.chat/images/mockup.png"
+        //   "image_url": "https://docs.goalify.chat/images/mockup.png",
+        //   "thumb_url": "https://docs.goalify.chat/images/mockup.png"
         // }]
       }
     };

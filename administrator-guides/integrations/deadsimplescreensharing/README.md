@@ -1,8 +1,8 @@
 # Dead Simple Screen Sharing
 
-Create a Dead Simple Screen Sharing Meeting to do Screen Sharing and audio/video-conferencing session right from Rocket.chat by sending a message `screenshare`
+Create a Dead Simple Screen Sharing Meeting to do Screen Sharing and audio/video-conferencing session right from Goalify.chat by sending a message `screenshare`
 
-1. In Rocket.Chat go to "Administration"->"Integrations" and create "New Integration"
+1. In Goalify.Chat go to "Administration"->"Integrations" and create "New Integration"
 
 2. Choose "Outgoing WebHook"
 
@@ -22,4 +22,4 @@ Create a Dead Simple Screen Sharing Meeting to do Screen Sharing and audio/video
 
 That's it! we have integrated "Dead Simple Screen Sharing", now when chatting we just have to send the message `screenshare` and a Dead Simple Screen Sharing meeting will be created, and you and your team members can visit the meeting link and perform screen sharing and audio-conferencing.
 
-![Dead Simple Screen Sharing Rocket.chat integartion](https://www.deadsimplescreensharing.com/wp-content/uploads/2018/01/Screen-Shot-2018-01-12-at-7.40.07-PM-1024x453.png)
+![Dead Simple Screen Sharing Goalify.chat integartion](https://www.deadsimplescreensharing.com/wp-content/uploads/2018/01/Screen-Shot-2018-01-12-at-7.40.07-PM-1024x453.png)
