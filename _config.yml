@@ -2,7 +2,7 @@ title: "Rocket.Chat Documentation"
 description: Rocket.Chat user, admin, API, integration, plugin and contributing documentation.
 
 # leave trailing slash off
-url: https://rocket.chat/docs
+url: http://docs.goalify.chat
 
 # bump if alterting styles or js
 version: 17
