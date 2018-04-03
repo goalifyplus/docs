@@ -1,6 +1,6 @@
 # Connecting to a server
 
-You can use a web browser or one of the [many client applications](https://rocket.chat/download) to connect to a Goalify.Chat server.
+You can use a web browser or one of the [many client applications](https://docs.goalify.chat/download) to connect to a Goalify.Chat server.
 
 ## Using a web browser
 
@@ -10,7 +10,7 @@ If it is a valid Goalify.Chat server address you will then be presented with the
 
 ## Using the Desktop application
 
-To connect to a Goalify.Chat server using a client application you first need to [download](https://rocket.chat/download) the application for your operating system.
+To connect to a Goalify.Chat server using a client application you first need to [download](https://docs.goalify.chat/download) the application for your operating system.
 
 After installing and starting the application. If this is the first server you are connecting to with the desktop app you will be presented with the server connect screen. Enter the server address you want to connect to.
 

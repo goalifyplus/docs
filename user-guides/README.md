@@ -1,6 +1,6 @@
 # User Guides
 
-Here you'll learn how to use [Goalify.Chat](https://rocket.chat/) as a user.
+Here you'll learn how to use [Goalify.Chat](https://docs.goalify.chat/) as a user.
 
 ## Learn more
 

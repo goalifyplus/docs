@@ -21,7 +21,7 @@ All missing/incomplete articles are links to a list with the description of each
 
 ### 2. Issues
 
-You can find a list of issues [here](https://github.com/RocketChat/Rocket.Chat.Docs/issues).
+You can find a list of issues [here](https://github.com/goalifyplus/Goalify.Chat.Docs/issues).
 When you find something you would like to work on just comment on it and we will add an __In Progress__ label.
 
 - - -

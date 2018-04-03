@@ -40,13 +40,13 @@ These settings are related to the Iframe Integration, please se the [Iframe inte
 - **Manually Approve New Users**: If this is set to true, new users will have to wait for a user with the `view-user-administration` permission to approve their account before using Goalify.Chat.
 - **Allowed Domains List**:  This will block emails with different domains than the ones on this list.
 - **Blocked Domains List**:  This will block emails with domains that are on on this list.
-- **Use Default Blocked Domains List**: Will block the email domains listed on this [file](https://github.com/RocketChat/Rocket.Chat/blob/develop/packages/rocketchat-lib/server/lib/defaultBlockedDomainsList.js)
+- **Use Default Blocked Domains List**: Will block the email domains listed on this [file](https://github.com/goalifyplus/Goalify.Chat/blob/develop/packages/rocketchat-lib/server/lib/defaultBlockedDomainsList.js)
 - **Use DNS Domain Check**: When this is set to true, users wont be able to register with invalid domains.
 - **Registration Form**: This will change how the registration form is presented. Currently there are 3 options:
     - Public: The form will be public and anyone will be able to access;
     - Disabled: The form will be disable and users wont be able to register through it;
     - Secret URL: The form will be only accessible using a specific URL;
-- **Registration Form Secret URL**: String to be added to the secret URL. Is recommended to use a random string for that. Example: `https://open.rocket.chat/register/[secret_hash]`.
+- **Registration Form Secret URL**: String to be added to the secret URL. Is recommended to use a random string for that. Example: `https://demo.goalify.chat/register/[secret_hash]`.
 - **Registration Form Link Replacement Text**: Text to be shown in place of the registration form when the registration form is disabled.
 - **Registration with Authentication Services**: Set this to true to allow registration with third party authentication services like Google or Twitter.
 - **Default Roles for Authentication Services**: Default roles users will be given when registering through authentication services.
