@@ -1,14 +1,14 @@
 # Azure Alerts
 
-Add Azure Alert notifications via a new WebHook in Rocket.Chat
+Add Azure Alert notifications via a new WebHook in Goalify.Chat
 
-1. In Rocket.Chat go to "Administration"->"Integrations" and create "New Integration"
+1. In Goalify.Chat go to "Administration"->"Integrations" and create "New Integration"
 2. Choose Incoming WebHook
 3. Follow all instructions like Enable, give it a name, link to channel etc. Set "Enable Script" to true and enter the javascript in the "Script" box
 4. Press Save changes and copy the *Webhook URL* (added just below the script box)
 5. Go to the azure portal and on the specific resource you want to enable Alerts for follow the steps for enabling Alerts and set the previously copied URL as the webhook URL for the Azure Alert. You can follow the steps shown here: <https://azure.microsoft.com/en-us/documentation/articles/insights-webhooks-alerts/>
 
-Paste this in javascript in the "Script" textarea on Rocket.Chat webhook settings
+Paste this in javascript in the "Script" textarea on Goalify.Chat webhook settings
 
 ```javascript
 class Script {

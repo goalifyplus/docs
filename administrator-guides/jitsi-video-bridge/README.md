@@ -1,6 +1,6 @@
 # Jitsi Video Bridge
 
-Rocket.Chat has long featured the ability to video and voice chat one-on-one, or with small groups.
+Goalify.Chat has long featured the ability to video and voice chat one-on-one, or with small groups.
 
 The implementation is based on WebRTC, and operates peer-to-peer without a server.
 
@@ -11,7 +11,7 @@ The implementation is based on WebRTC, and operates peer-to-peer without a serve
 The [Jitsi Meet project](https://jitsi.org/Projects/JitsiMeet) (Jitsi Video Bridge) is a tried and true bandwidth efficient WebRTC compatible SFU (server based)
 solution from our gracious FOSS partner, [Jitsi](https://jitsi.org/).
 
-Through the collaboration arrangement with Jitsi, Rocket.Chat users can enjoy  reliable and robust
+Through the collaboration arrangement with Jitsi, Goalify.Chat users can enjoy  reliable and robust
 group video chat, audio chat, and screen sharing experience out of the box.
 
 To enable Jitsi:

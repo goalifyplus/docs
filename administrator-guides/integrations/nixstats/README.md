@@ -1,15 +1,15 @@
 # Nixstats notification
 
-Add Nixstats notifications via a new WebHook in Rocket.Chat
+Add Nixstats notifications via a new WebHook in Goalify.Chat
 
-1. In Rocket.Chat go to "Administration"->"Integrations" and create "New Integration"
+1. In Goalify.Chat go to "Administration"->"Integrations" and create "New Integration"
 2. Choose Incoming WebHook
 3. Follow all instructions like Enable, give it a name, link to channel etc. Set "Enable Script" to true and enter the javascript in the "Script" box
 4. Press Save changes and copy the *Webhook URL* (added just below the script box)
 5. Go to <https://nixstats.com> -> Settings -> Notification Contacts -> Add (or Edit a contact) contact
-6. Paste the Rocket.Chat url you've copied in step 4
+6. Paste the Goalify.Chat url you've copied in step 4
 
-Paste this javascript in the "Script" textarea on Rocket.Chat webhook settings
+Paste this javascript in the "Script" textarea on Goalify.Chat webhook settings
 
 ```
 /* exported Script */
@@ -55,11 +55,11 @@ class Script {
 }
 ```
 
-## Render nixstats graphs in rocket.chat
+## Render nixstats graphs in Goalify.Chat
 
-Add Nixstats notifications via a new WebHook in Rocket.Chat
+Add Nixstats notifications via a new WebHook in Goalify.Chat
 
-1. In Rocket.Chat go to "Administration"->"Integrations" and create "New Integration"
+1. In Goalify.Chat go to "Administration"->"Integrations" and create "New Integration"
 2. Choose Outgoing WebHook
 3. Select **Message Sent** as Event trigger
 4. Enter **ns** as trigger word
@@ -68,7 +68,7 @@ Add Nixstats notifications via a new WebHook in Rocket.Chat
 7. **Token**, this is your nixstats API token, [create an API key](https://nixstats.com/settings/api).
 8. Script Enabled set to **True**
 
-Paste this javascript in the "Script" textarea on Rocket.Chat webhook settings
+Paste this javascript in the "Script" textarea on Goalify.Chat webhook settings
 
 ```
 /* exported Script */

@@ -1,6 +1,6 @@
 # TravisCI
 
-Add TravisCI notifications via a new WebHook in Rocket.Chat
+Add TravisCI notifications via a new WebHook in Goalify.Chat
 
 ## Receive alerts
 

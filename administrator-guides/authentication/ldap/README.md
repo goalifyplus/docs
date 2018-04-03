@@ -69,7 +69,7 @@ To enable Stunnel automatic startup change the ``ENABLED`` variable in /etc/defa
 ENABLED=1
 ```
 
-Finally on the Rocket.Chat server under /admin/LDAP set
+Finally on the Goalify.Chat server under /admin/LDAP set
 
 - LDAP_Url = localhost
 - LDAP_Port = 389
@@ -86,7 +86,7 @@ If you cannot login without getting any error messages (the last thing in log yo
 
 ### No users are created even everyything looks good
 
-Every rocket.chat-user has to have an email. So either the LDAP users have an email or you have to set a default domain using the field "default domain".
+Every goalify.chat-user has to have an email. So either the LDAP users have an email or you have to set a default domain using the field "default domain".
 
 ## References
 

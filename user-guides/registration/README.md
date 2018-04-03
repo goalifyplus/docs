@@ -20,4 +20,4 @@ Once you have successfully registered you will be asked to choose your username.
 
 ### Usernames and display names
 
-Usernames on each Rocket.Chat server need to be unique but display names do not have to be unique. For example there can be only one user with the username `johnsmith` but there can be more than one user with the display name `John Smith`.
+Usernames on each Goalify.Chat server need to be unique but display names do not have to be unique. For example there can be only one user with the username `johnsmith` but there can be more than one user with the display name `John Smith`.

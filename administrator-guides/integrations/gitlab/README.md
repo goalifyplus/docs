@@ -1,16 +1,16 @@
 # Gitlab
 
-Add GitLab notifications via a new WebHook in Rocket.Chat
+Add GitLab notifications via a new WebHook in Goalify.Chat
 
-1. In Rocket.Chat go to "Administration"->"Integrations" and create "New Integration"
+1. In Goalify.Chat go to "Administration"->"Integrations" and create "New Integration"
 2. Choose Incoming WebHook
 3. Follow all instructions like Enable, give it a name, link to channel etc. Set "Enable Script" to true and enter the javascript in the "Script" box
 4. Press Save changes and copy the *Webhook URL* (added just below the script box)
 5. Go to your gitlab project, ie. <https://gitlab.com/>< username >/< project >/hooks . It's in the project "settings" under Webhooks menu GitLab.
-6. Add a new webhook by pasting the Rocket.Chat url you've copied in step 4, select at least 1 checkbox and press the button (conveniently called "Add Webhook")
+6. Add a new webhook by pasting the Goalify.Chat url you've copied in step 4, select at least 1 checkbox and press the button (conveniently called "Add Webhook")
 7. Test the webhook with the "Test Hook" button in Gitlab, a topbar should appear with more info (success or failure)
 
-Paste this in javascript in the "Script" text area on Rocket.Chat webhook settings
+Paste this in javascript in the "Script" text area on Goalify.Chat webhook settings
 
 ```javascript
 /* eslint no-console:0, max-len:0 */

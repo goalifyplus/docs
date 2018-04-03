@@ -1,6 +1,6 @@
 # Channels
 
-Conversations in Rocket.Chat are organized into __channels__. Channels are chat rooms with many useful features.
+Conversations in Goalify.Chat are organized into __channels__. Channels are chat rooms with many useful features.
 
 There are three kinds of channels: [public channels](#public-channels), [private groups](#private-groups), and [direct (1-on-1) messages](#direct-messages).
 

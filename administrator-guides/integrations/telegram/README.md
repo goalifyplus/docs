@@ -15,12 +15,12 @@ _follow these instructions to get a simple Telegram Bot setup_
 ## Getting the Token
 
 1. Wait for the Token to be displayed referred to as [myauthorization-token]
-2. Go to the Administration Portal of Rocket.Chat and the Integrations Page
+2. Go to the Administration Portal of Goalify.Chat and the Integrations Page
 3. Create a new Incoming Webhook following these instructions
     - Enable script
     - Paste the following
 
-### Incoming Webhook for Rocket.Chat
+### Incoming Webhook for Goalify.Chat
 
 ```javascript
 class Script {
@@ -58,14 +58,14 @@ class Script {
 }
 ```
 
-## Letting Telegram Know About Rocket.Chat's Webhook
+## Letting Telegram Know About Goalify.Chat's Webhook
 
-1. Copy incoming webhook URL from Rocket.Chat
-2. Change following URL with your token and Incoming webhookURL and execute in regular browser `https://api.telegram.org/bot[myauthorization-token]/setwebhook?url=[Incoming_Webhook_Link_from_Rocket.Chat]`
+1. Copy incoming webhook URL from Goalify.Chat
+2. Change following URL with your token and Incoming webhookURL and execute in regular browser `https://api.telegram.org/bot[myauthorization-token]/setwebhook?url=[Incoming_Webhook_Link_from_Goalify.Chat]`
 3. Receive the message `{ "ok": true, "result": true, "description": "Webhook succsessfully set" }` (or similar)
-4. Test your incoming Webhook by sending a telegram message to the bot. It should be posted in the channel/user you specified in the incoming webhook. Check Rocket.Chat's Logs and write down `chat_id` (or `[chat-id]`)
+4. Test your incoming Webhook by sending a telegram message to the bot. It should be posted in the channel/user you specified in the incoming webhook. Check Goalify.Chat's Logs and write down `chat_id` (or `[chat-id]`)
 
-## Create Outgoing Webhook in Rocket.Chat
+## Create Outgoing Webhook in Goalify.Chat
 
 1. Create outgoing webhook and specify channel with the following url: `https://api.telegram.org/bot[myauthorization-token]/sendMessage?chat_id=[chat-id]`
 2. Paste the Outgoing Webhook below.

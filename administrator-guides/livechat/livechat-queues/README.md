@@ -1,6 +1,6 @@
 # Livechat Queue Types
 
-There two types of queue types on Rocket.Chat:
+There two types of queue types on Goalify.Chat:
 
 - [Round robin [default]](#round-robin)
 - [Guest Pool (coming soon)](#guest-pool)

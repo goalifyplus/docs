@@ -1,7 +1,7 @@
 -
-  name: Rocket.Chat User Guides
+  name: Goalify.Chat User Guides
   icon: rocketchat
-  description: Guides for the basic usage of Rocket.Chat.
+  description: Guides for the basic usage of Goalify.Chat.
   path: user-guides/
   pages:
     Connecting to a Server: connecting-to-a-server/
@@ -11,9 +11,9 @@
     Managing your Account: managing-your-account/
 
 -
-  name: Rocket.Chat Administrator Guides
+  name: Goalify.Chat Administrator Guides
   icon: cog
-  description: Guides for managing and configuring Rocket.Chat
+  description: Guides for managing and configuring Goalify.Chat
   path: administrator-guides/
   pages:
     Account Settings: account-settings/
@@ -24,9 +24,9 @@
     Integrations: integrations/
 
 # -
-#   name: Rocket.Chat Developer Guides
+#   name: Goalify.Chat Developer Guides
 #   icon: code
-#   description: Guides for developing and modifying Rocket.Chat's code
+#   description: Guides for developing and modifying Goalify.Chat's code
 #   path: developer-guides/
 #   pages:
 #     Quick Start: quick-start/
@@ -37,13 +37,13 @@
 #     Livechat API: livechat-api/
 
 # -
-#   name: Rocket.Chat Android
+#   name: Goalify.Chat Android
 #   icon: android
 #   description:
-#   path: https://github.com/RocketChat/Rocket.Chat.Android
+#   path: https://github.com/RocketChat/Goalify.Chat.Android
 
 # -
-#   name: Rocket.Chat iOS
+#   name: Goalify.Chat iOS
 #   icon: apple
 #   description:
-#   path: https://github.com/RocketChat/Rocket.Chat.iOS
+#   path: https://github.com/RocketChat/Goalify.Chat.iOS

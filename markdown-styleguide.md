@@ -1,8 +1,8 @@
 # Markdown Style Guide
 
-The Rocket.Chat documentation supports the [Markdown Markup Language](https://en.wikipedia.org/wiki/Markdown) (You can also find a "Cheatsheet" [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet))
+The Goalify.Chat documentation supports the [Markdown Markup Language](https://en.wikipedia.org/wiki/Markdown) (You can also find a "Cheatsheet" [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet))
 
-Markdown can be written in various different styles, in this document you will find the standard formatting guide for creating Rocket.Chat documentation.
+Markdown can be written in various different styles, in this document you will find the standard formatting guide for creating Goalify.Chat documentation.
 
 We are currently running a markdown [linter](https://github.com/markdownlint/markdownlint) on incoming Pull Requests, so it is a good idea to download it and run it locally before submitting a Pull Request.
 

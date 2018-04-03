@@ -1,6 +1,6 @@
 # Account Settings
 
-In this section you can modify various settings about the accounts of the users in your Rocket.Chat server.
+In this section you can modify various settings about the accounts of the users in your Goalify.Chat server.
 
 In this guide we will go over all settings in the _Accounts_ Section.
 
@@ -19,13 +19,13 @@ In this guide we will go over all settings in the _Accounts_ Section.
 - **Show form-based Login**: Setting this to false will remove the log in form from the login screen. This setting is useful when you are using a third party login system.
 - **Placeholder for email or username login field**: This will change the placeholder for the _email or username_ field on the login screen.
 - **Placeholder for password login field**: This will change the placeholder for the _password_ field on the login screen.
-- **Forget user session on window close**: This will log out users when they close the window containing Rocket.Chat
+- **Forget user session on window close**: This will log out users when they close the window containing Goalify.Chat
 
 ## Avatar
 
 - **Resize Avatar**: Set this to true to resize users avatars to a predefined size. You need ImageMagick or GraphicsMagick installed on your server for this feature to work.
 - **Avatar Size**: The desired size after the avatar resizing. The unit is pixels (px).
-- **Set Default Avatar**: If this setting is set to true, Rocket.Chat will try to find a default avatar based on OAuth Account or Gravatar.
+- **Set Default Avatar**: If this setting is set to true, Goalify.Chat will try to find a default avatar based on OAuth Account or Gravatar.
 
 ## Iframe
 
@@ -37,7 +37,7 @@ These settings are related to the Iframe Integration, please se the [Iframe inte
 - **Require Name For Signup**: If this is set to true, the name of the user will be required to create a account.
 - **Require Password Confirmation**: If this is set to true, the user will have to input his password twice when registering.
 - **Email Verification**: If this is set to true, users will have to confirm their email via a confirmation email sent to their email. (For this setting work, the SMTP settings must be already set up. See [Email Configuration](../email/setup))
-- **Manually Approve New Users**: If this is set to true, new users will have to wait for a user with the `view-user-administration` permission to approve their account before using Rocket.Chat.
+- **Manually Approve New Users**: If this is set to true, new users will have to wait for a user with the `view-user-administration` permission to approve their account before using Goalify.Chat.
 - **Allowed Domains List**:  This will block emails with different domains than the ones on this list.
 - **Blocked Domains List**:  This will block emails with domains that are on on this list.
 - **Use Default Blocked Domains List**: Will block the email domains listed on this [file](https://github.com/RocketChat/Rocket.Chat/blob/develop/packages/rocketchat-lib/server/lib/defaultBlockedDomainsList.js)

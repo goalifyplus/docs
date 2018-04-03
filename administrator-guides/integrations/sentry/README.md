@@ -1,18 +1,18 @@
 # Sentry
 
-Add Sentry notifications via a new WebHook in Rocket.Chat
+Add Sentry notifications via a new WebHook in Goalify.Chat
 This script works for the sentry.com and self-hosted version.
 
-1. In Rocket.Chat go to "Administration"->"Integrations" and create "New Integration"
+1. In Goalify.Chat go to "Administration"->"Integrations" and create "New Integration"
 2. Choose Incoming WebHook
 3. Follow all instructions like Enable, give it a name, link to channel etc. Bonus: add <https://avatars.io/twitter/getsentry/medium> as Avatar URL
 4. Set "Enable Script" to true and enter the javascript in the "Script" box
 5. Press Save changes and copy the *Webhook URL* (added just below the script box)
 6. Go to your Sentry project, ie. <https://app.getsentry.com/>< organization >/< project >/settings/plugins/ and enable the "WebHooks" integration. It's in the project "settings" under All Integrations. An WebHooks integration is added there when enabled.
-7. Add a new webhook by pasting the Rocket.Chat url you've copied in step 5 in the "Callback URLs" textarea (1 URL per line) and press the Save Changes button
+7. Add a new webhook by pasting the Goalify.Chat url you've copied in step 5 in the "Callback URLs" textarea (1 URL per line) and press the Save Changes button
 8. Test the webhook with the "Test Configuration" button in Sentry, a Test Results box should appear below, with more info(success or failure)
 
-Paste this in javascript in the "Script" textarea on Rocket.Chat webhook settings
+Paste this in javascript in the "Script" textarea on Goalify.Chat webhook settings
 
 ```javascript
 class Script {

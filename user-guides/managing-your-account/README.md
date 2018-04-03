@@ -1,6 +1,6 @@
 # Managing your account
 
-To access and manage your Rocket.Chat account on a server, login and **click** on your **profile picture** or **username** and select **My Account**.
+To access and manage your Goalify.Chat account on a server, login and **click** on your **profile picture** or **username** and select **My Account**.
 
 Changing an account setting only changes it for the server you are connected to and not all servers you have access to. You will need to configure your account on each server you connect to.
 
@@ -10,7 +10,7 @@ You can manage settings for the following account sections:
 
 ### Localization
 
-Set the language to use for the Rocket.Chat user interface.
+Set the language to use for the Goalify.Chat user interface.
 
 ### Messages
 
@@ -74,12 +74,12 @@ Verify and edit the following profile information:
 - Email
 - Set a new password
 
-If your email has been verified by the Rocket.Chat server a tick will appear alongside it.
+If your email has been verified by the Goalify.Chat server a tick will appear alongside it.
 
 You can also ask to another email verification email to be sent to you from here.
 
-Set or change your avatar for a Rocket.Chat server by clicking on one of the images beside your current avatar. To upload a new avatar select the box with a arrow pointing up.
+Set or change your avatar for a Goalify.Chat server by clicking on one of the images beside your current avatar. To upload a new avatar select the box with a arrow pointing up.
 
 ## Security
 
-Enable or disable Two Factor Authentication (2FA) for your account on a Rocket.Chat server.
+Enable or disable Two Factor Authentication (2FA) for your account on a Goalify.Chat server.

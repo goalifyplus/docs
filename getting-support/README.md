@@ -6,15 +6,15 @@ We have a great community that likes to give back.
 
 Some great places to ask your questions:
 
-- [Rocket.Chat forums](https://forums.rocket.chat/)
-- Stack Overflow [Rocket.Chat Tag](https://stackoverflow.com/questions/tagged/rocket.chat)
-- [Server Fault](https://serverfault.com/search?q=Rocket.Chat)
+- [Goalify.Chat forums](https://forums.rocket.chat/)
+- Stack Overflow [Goalify.Chat Tag](https://stackoverflow.com/questions/tagged/rocket.chat)
+- [Server Fault](https://serverfault.com/search?q=Goalify.Chat)
 
 Our community also often hangs out on our [community server](https://open.rocket.chat).
 
 Some of the channels to get help:
 
-- [#support](https://open.rocket.chat/channel/support) channel for help with general Rocket.Chat
+- [#support](https://open.rocket.chat/channel/support) channel for help with general Goalify.Chat
 - [#ubuntu-snap](https://open.rocket.chat/channel/ubuntu-snap) channel for help with snap installs
 - [#desktop](https://open.rocket.chat/channel/desktop) channel for help with the desktop client
 - [#hubot](https://open.rocket.chat/channel/hubot) channel for help with hubot scripting

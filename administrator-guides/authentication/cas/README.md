@@ -1,6 +1,6 @@
 # CAS
 
-Central Authentication Service (CAS) allows users to use one set of credentials to sign into many sites. Rocket.Chat comes preloaded with an easy to use method of integrating with an existing CAS server.
+Central Authentication Service (CAS) allows users to use one set of credentials to sign into many sites. Goalify.Chat comes preloaded with an easy to use method of integrating with an existing CAS server.
 
 ## Setup
 
@@ -20,4 +20,4 @@ The SSO login URL should point towards the cas service login page. This will usu
 
 Select the CAS version used by you CAS provider, most modern providers will use `CAS 2.0`
 
-NOTE: You may have to allow your Rocket.Chat site to connect to your CAS - CAS Management Service is an easy to use approach to this problem.
+NOTE: You may have to allow your Goalify.Chat site to connect to your CAS - CAS Management Service is an easy to use approach to this problem.

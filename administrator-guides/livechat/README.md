@@ -1,6 +1,6 @@
 # Livechat
 
-Rocket.Chat had minimal Livechat as a feature for a long time.
+Goalify.Chat had minimal Livechat as a feature for a long time.
 
 Recently the demand for production-grade Livechat has increased, so we started a complete rewrite of the package.
 
@@ -14,7 +14,7 @@ Livechat package adds the ability to embed a pop-up support chat to your website
 
 ### Enable Livechat feature
 
-First, you have enable the Livechat feature on your Rocket.Chat instance. Go to `Administration > Settings > Livechat` and enable it.
+First, you have enable the Livechat feature on your Goalify.Chat instance. Go to `Administration > Settings > Livechat` and enable it.
 
 ![image](https://cloud.githubusercontent.com/assets/8591547/14460567/97c6609c-0094-11e6-8f7e-da9a7c08ba51.png)
 
@@ -70,7 +70,7 @@ To customize the appearance of your Livechat widget goto Livechat -> Appearance
 
 You can use webhooks to easily integrate livechat with your CRM.
 
-The Rocket.Chat will send a POST to the webhook URL when the livechat ends or you receive a new offline message.
+The Goalify.Chat will send a POST to the webhook URL when the livechat ends or you receive a new offline message.
 
 Here is an example of the JSON data sent on the end of a livechat session:
 
@@ -143,7 +143,7 @@ Here is an example of the JSON data sent on a livechat offline message:
 
 The field **Secret Token** is sent to a header `X-RocketChat-Livechat-Token` so you can validate if the request became from the livechat.
 
-If your endpoint returns a response status other than 200, Rocket.Chat will retry 10 times waiting 10 seconds between retries.
+If your endpoint returns a response status other than 200, Goalify.Chat will retry 10 times waiting 10 seconds between retries.
 
 #### Widget Embedding
 
@@ -164,5 +164,5 @@ Magento 2 depends on **RequireJS** to load JavaScript resources, so we need to c
     </script>
 ```
 
-Replace the `https://rc.example.com/` with your Rocket.Chat (sub-)domain, and paste the code into your theme file `/app/design/frontend/Theme_provider/theme_name/Magento_Theme/templates/root.phtml` right before the closing `</html>` tag.
+Replace the `https://rc.example.com/` with your Goalify.Chat (sub-)domain, and paste the code into your theme file `/app/design/frontend/Theme_provider/theme_name/Magento_Theme/templates/root.phtml` right before the closing `</html>` tag.
 Flush your PHP OpCode cache, and you are ready to go.

@@ -32,9 +32,9 @@ Once you install and deploy Minio server, you can get the AccessKey and SecretKe
 
 To override Minio's auto-generated keys, you may pass secret and access keys explicitly as environment variables. Explained [here](https://docs.minio.io/docs/minio-docker-quickstart-guide)
 
-## Setup Rocket.Chat to use Minio
+## Setup Goalify.Chat to use Minio
 
-To setup Minio as the file storage server in Rocket.Chat, go to `File Uploads` section under `administration`, then set `Storage Type: GridFS (default)` to `AmazonS3`. Next, access the AmazonS3 menu and update the following details:
+To setup Minio as the file storage server in Goalify.Chat, go to `File Uploads` section under `administration`, then set `Storage Type: GridFS (default)` to `AmazonS3`. Next, access the AmazonS3 menu and update the following details:
 
 | Configuration Name   | Description                                               |
 | -------------------- | --------------------------------------------------------- |

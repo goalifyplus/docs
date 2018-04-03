@@ -1,8 +1,8 @@
 # Email Configuration
 
-Rocket.Chat have multiple features using email, like notifications, email verification, mailer, and much more.
+Goalify.Chat have multiple features using email, like notifications, email verification, mailer, and much more.
 
-Before using those features, you will have to connect a SMTP server to Rocket.Chat. To do that you will need to have access to an SMTP server and valid SMTP login credentials.
+Before using those features, you will have to connect a SMTP server to Goalify.Chat. To do that you will need to have access to an SMTP server and valid SMTP login credentials.
 
 ## Setup credentials
 

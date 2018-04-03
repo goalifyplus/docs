@@ -1,6 +1,6 @@
 # Mailer
 
-You can send email to users inside your Rocket.Chat server using the __Mailer__ tool.
+You can send email to users inside your Goalify.Chat server using the __Mailer__ tool.
 The address from whom the email will be sent can be set by filling the __From__ field.
 By checking the __Dry Run__ option a email will be only sent to the address in __From__.
 
