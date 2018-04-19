@@ -1,23 +1,23 @@
-# Registering an account
+# Đăng ký tài khoản
 
-To be able to access a server you will need to first register an account manually or by using one of the many supported OAuth services (if the desired server has enabled these services) and then [login](../login/).
+Để có thể truy cập vào Server, trước tiên bạn phải đăng ký một tài khoản bằng cách sử dụng một trong nhiều dịch vụ OAuth được hỗ trợ (nếu Server mong muốn kích hoạt các dịch vụ này) và sau đó [đăng nhập](../ login /).
 
-## Manual registration
+## Đăng ký thủ công
 
-You can create an account by providing your:
+Bạn có thể tạo một tài khoản bằng cách cung cấp:
 
-- Name
-- email
-- Password and password confirmation
+- Tên 
+- Email
+- Mật khẩu và mật khẩu xác nhận.
 
-A server can ask for you to verify your email, this can be done by simply clicking in the link sent to the registered email.
+Server có thể yêu cầu bạn xác minh email của bạn, điều này được thực hiện bằng cách đơn giản là nhấp vào liên kết được gửi đến email mà bạn đăng ký.
 
-_Servers can be configured in various ways, so their registration screen can ask for different information and behave differently. If you are unsure how to register please contact your server administrator._
+_Các Server có thể được cấu hình theo nhiều cách khác nhau, do đó màn hình đăng ký có thể yêu cầu các thông tin khác nhau và vận hành một cách khác. Nếu bạn không chắc cách đăng ký, vui lòng liên hệ với quản trị viên Server của bạn._
 
-## Choosing a username
+## Chọn tên truy cập
 
-Once you have successfully registered you will be asked to choose your username. Your username is separate to your display name on the server. Your username is your unique identifier for others to use to direct message or mention you.
+Một khi bạn đã đăng ký thành công, bạn sẽ được yêu cầu chọn tên truy cập của mình. Tên truy cập của bạn tách biệt với tên hiển thị của bạn trên Server. Tên truy cập của bạn là thứ duy nhất để những người khác sử dụng để gửi tin nhắn trực tiếp hoặc đề cập đến bạn.
 
-### Usernames and display names
+### Tên truy cập và tên hiển thị
 
-Usernames on each Goalify.Chat server need to be unique but display names do not have to be unique. For example there can be only one user with the username `johnsmith` but there can be more than one user with the display name `John Smith`.
+Tên truy cập trên mỗi Server của Goalify.Chat cần phải duy nhất nhưng tên hiển thị của người dùng thì có thể trùng nhau. Ví dụ, chỉ có duy nhất một người dùng có tên truy cập là `johnsmith` nhưng có thể có nhiều người dùng có tên hiển thị là `John Smith`.

@@ -1,25 +1,27 @@
-# Connecting to a server
+# Kết nối tới Server
 
-You can use a web browser or one of the [many client applications](https://docs.goalify.chat/download) to connect to a Goalify.Chat server.
+Bạn có thể dùng trình duyệt hoặc một trong [những ứng dụng](https://docs.goalify.chat/download) để kết nối tới Goalify.Chat server.
 
-## Using a web browser
+## Sử dụng trình duyệt
 
-To connect to a Goalify.Chat server through a web browser you need to enter the desired server address in the browser's address bar.
+Để kết nối tới Goalify.Chat server thông qua trình duyệt, bạn cần phải nhập địa chỉ server vào thanh địa chỉ của trình duyệt.
 
-If it is a valid Goalify.Chat server address you will then be presented with the [registration](../registration/) and [login](../login/) page if unauthenticated or taken to the server's homepage if authenticated.
+Nếu đường dẫn bạn đã nhập là một địa chỉ Goalify.Chat hợp lệ thì bạn sẽ thấy một trang [đăng ký](../registration/) và [đăng nhập](../login/) nếu bạn chưa được xác thực. Ngược lại, nếu đã được server xác thực thì bạn sẽ thấy trang chủ của Goalify.Chat.
 
-## Using the Desktop application
+## Sử dụng ứng dụng máy tính
 
-To connect to a Goalify.Chat server using a client application you first need to [download](https://docs.goalify.chat/download) the application for your operating system.
+Để kết nối tới Goalify.Chat server bằng ứng dụng, đầu tiên bạn cần phải [tải](https://docs.goalify.chat/download) phần mềm cài đặt tương ứng với hệ điều hành của máy tính.
 
-After installing and starting the application. If this is the first server you are connecting to with the desktop app you will be presented with the server connect screen. Enter the server address you want to connect to.
+Sau khi đã cài đặt và khởi động ứng dụng. Nếu đây là lần đầu tiên bạn kết nối tới server thì ứng dụng sẽ hiển thị một khung để bạn có thể nhập địa chỉ để kết nối tới server.
 
-If it is a valid Goalify.Chat server address you will then be presented with the [registration](../registration/) and [login](../login/) page.
+Nếu địa chỉ bạn vừa nhập là một địa chỉ Goalify.Chat hợp lệ, bạn sẽ thấy được một khung để [đăng ký](../registration/) và [đăng nhập](../login/).
 
-### Connecting to more than one server
+### Kết nối tới nhiều server
+
+Nếu bạn đang sử dụng ứng dụng Goalify.Chat, bạn có thể kết nối tới nhiều Goalify.Chat server cùng một lúc.
 
 If you are using a Goalify.Chat desktop application you can connect to multiple Goalify.Chat servers.
 
-To add a new server, click the **plus** icon below the server list left sidebar and follow the [instructions](../connecting-to-a-server/) to connect to a Goalify.Chat server using a Goalify.Chat client application.
+Để có thể thêm một server mới, nhấp chuột vào ký hiệu **+** dưới danh sách server ở bên trái và làm theo [hướng dẫn](../connecting-to-a-server/) để kết nối tới Goalify.Chat server.
 
-## Using a Mobile app
+## Sử dụng ứng dụng di động

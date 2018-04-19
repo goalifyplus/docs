@@ -1,9 +1,9 @@
-# Logging in to a server
+# Đăng nhập vào Server
 
-To login to a server you will need to first [register](../registration/) an account.
+Để đăng nhập vào Server đầu tiên bạn cần [đăng ký](../registration/) một tài khoản.
 
-## Manual login
+## Đăng nhập thủ công
 
-To login manually you must have used the [manual registration method](../registration/) or have set a `password` in your account settings.
+Để đăng nhập thủ công bạn cần sử dụng [phương thức đăng ký thủ công](../registration/) hoặc khởi tạo một `mật khẩu` trong tài khoản mà bạn đã cài đặt.
 
-You can login using either your `username` or `email` and `password`.
+Bạn có thể đăng nhập bằng `tên người dùng` hoặc `email` và `mật khẩu` của bạn.
