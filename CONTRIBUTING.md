@@ -33,7 +33,7 @@ When you find something you would like to work on just comment on it and we will
 When you create a new pull request, we expect some requirements to be met.
 
 - Whenever you add a new article or complete a incomplete article, please update the [Documentation Map](../contributing/documentation/documentation-map) and remove the topic from the [Missing/Incomplete Article List](../contributing/documentation/missing-and-outdated-list) (if necessary).
-- If a file is created or moved, you need to update the Table of Contents (You can find the file [here](https://github.com/RocketChat/docs/blob/master/_data/toc.yml)).
+- If a file is created or moved, you need to update the Table of Contents (You can find the file [here](https://github.com/goalifyplus/Goalify.Chat.Docs/blob/master/_data/toc.yml)).
 - Follow this naming convention for Pull Requests:
     - When adding new documentation, add `New Documentation:` before the title. E.g. `New Documentation: Authentication Guide`.
     - When fixing documentation, add `Fix Documentation:` before the title. E.g. `Fix Documentation: Authentication Guide`.
@@ -67,7 +67,7 @@ Every time you add a new file to the documentation, you will have to add it to t
 
 The table of contents is the left navigation sidebar, and it is the way others will find your new article.
 
-You can find the table of contents `.yml` file [here](https://github.com/RocketChat/docs/blob/master/_data/toc.yml).
+You can find the table of contents `.yml` file [here](https://github.com/goalifyplus/Goalify.Chat.Docs/blob/master/_data/toc.yml).
 
 You have to note that the name you put on the table of content will be _slugfied_, and these names will be used to search for that file.
 
