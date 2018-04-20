@@ -1,132 +1,132 @@
-# Messaging
+# Tin nhắn
 
-## Composing messages
+## Soạn tin nhắn
 
-Sending messages in Goalify.Chat is self-explanatory: type a message in the message box and press <kbd>Enter</kbd> or the Send Button.
+Gửi tin nhắn trên Goalify.Chat được hiểu là: gõ một tin nhắn trong hộp tin nhắn và nhấn <kbd>Enter</kbd> hoặc nút gửi.
 
-If you want to send multiple lines of text, press <kbd>Shift</kbd> + <kbd>Enter</kbd> to add a new line.
+Nếu bạn muốn gửi nhiều dòng trong một tin nhắn, nhấn <kbd>Shift</kbd> + <kbd>Enter</kbd> để thêm một dòng mới.
 
-## Cursor movement while composing a message
+## Di chuyển con trỏ khi soạn tin nhắn
 
-You can move the cursor using the arrow keys while writing or editing messages. When you press the `Up Arrow` or `Down Arrow` keys, the cursor moves to the location determined by the wrapping of the text.
+Bạn có thể di chuyển con trỏ trong khi đang soạn thảo hoặc chỉnh sửa tin nhắn bằng cách sử dụng các phím mũi tên. Khi bạn nhấn `phím mũi tên chỉ lên` hoặc `phím mũi tên chỉ xuống`, con trỏ sẽ di chuyển đến vị trí kí tự mà bạn mong muốn.
 
-### Move the cursor to the beginning or end of a message
+### Di chuyển con trỏ tới đầu và cuối tin nhắn
 
-Holding `Alt` or `Command` while pressing an arrow key moves to the beginning or end of the message.
+Giữ `Alt` hoặc `Command` và phím dấu mũi tên để di chuyển tới đầu hoặc cuối tin nhắn.
 
-## Notify other team members
+## Thông báo tới các thành viên khác trong nhóm
 
-To get someone’s attention in a channel, type `@` followed by their username, for example `@guarilha`. (They’ll see a red badge on the channel and be notified via email or their mobile device if they’re not online)
+Để một ai đó tương tác trong nhóm, nhập `@` và tên người dùng, ví dụ `@guarilha`. (Họ sẽ thấy thông báo màu đỏ trên kênh và được thông báo qua email hoặc thiết bị di động khi họ không trực tuyến)
 
-You can also notify everyone in a channel by typing `@all`. But avoid using `@all` because it notifies everyone. Although `@all` is useful for important announcements, it can be distracting if abused.
+Bạn cũng có thể thông báo cho tất cả thành viên trong nhóm bằng cách nhập `@all`. Nhưng bạn nên tránh sử dụng `@all` bởi vì nó sẽ gửi thông báo cho tất cả mọi người. Mặc dù `@ all` rất hữu ích cho các thông báo quan trọng, nhưng nó có thể làm người khác mất tập trung nếu bị lạm dụng nó.
 
-## Sending attachments
+## Gửi tài liệu đính kèm
 
-In Goalify.Chat you can send a variety of attachments on your message, like files, audio, links, videos, and many more.
+Trong Goalify.Chat bạn có thể gửi một tài liệu đính kèm trong tin nhắn của bạn, ví dụ như: audio, một đường dẫn, videos và còn nhiều loại khác nữa.
 
-To access the attachment menu you can simply click on the plus (+) icon on the message input.
+Để chọn tập tin bạn nhấn chọn biểu tượng dấu cộng (+) trên chỗ nhập tin nhắn.
 
-### Files
+### Tập tin
 
-You can select files using three methods:
+Bạn có thể chọn tập tin bằng cách sử dụng ba cách sau:
 
-- By selecting the `Select Files from Computer` option from the attachment menu;
-- By dragging and dropping the file on Goalify.Chat;
-- By pasting a image from the clipboard;
+- Bằng cách chọn `Chọn tập tin từ máy tính` từ danh mục đính kèm;
+- Bằng cách kéo và thả tập tin từ máy tính sang Goalify.Chat;
+- Bằng cách dán một hình ảnh từ clipboard;
 
-After Selecting the file, you will be prompted to add a name and a description to it. After that just press send.
+Sau khi Chọn tập tin, bạn sẽ được nhắc nhở để thêm tên và mô tả cho nó. Sau đó chỉ cần bấm gửi.
 
-_Be aware that the server administrator can block certain file types from being uploaded._
+_Lưu ý rằng quản trị viên có thể chặn các loại tệp nhất định không cho bạn tải lên._
 
 ### Audio
 
-Before sending a audio message, if you are using a browser, you need to give Goalify.Chat permission to use your microphone.
+Trước khi bạn gửi một tin nhắn audio, Nếu bạn sử dụng trình duyệt, bạn cần cho phép Goalify.Chat sử dụng microphone.
 
-To start recording you can simply click on the `Create new Audio Message` option on the attachment menu. To stop recording just press the same option again.
+Để bắt đầu ghi âm, bạn chỉ cần nhấp vào tùy chọn `Tạo mới tin nhắn Audio` trên danh sách đính kèm. Để ngừng ghi âm chỉ cần nhấn vào biểu tưởng (v) hoặc (x).
 
-You will have the chance to listen to the message before sending it.
+Bạn nên nghe thử audio trước khi gửi tin nhắn đi.
 
 ### Video
 
-Before sending a audio message, if you are using a browser, you need to give Goalify.Chat permission to use your camera.
+Trước khi gửi tin nhắn video, Nếu bạn sử dụng trình duyệt, bạn cần cho phép Goalify.Chat truy cập vào camera của bạn.
 
-To start recording you can simply click on the `Create new Video Message` option on the attachment menu.
+Để bắt đầu quay video, bạn chỉ cần nhấp vào tùy chọn `Tạo mới tin nhắn video` trên danh sách đính kèm.
 
-Then click the circle icon, when the recording starts the icon will be replaced with a square "stop" icon. To end the video recording, click the "stop" icon.
+Sau đó nhấn chọn biểu tượng hình tròn, trong khi đang quay video biểu tượng bắt đầu sẽ bị thay thế bởi biểu tượng "dửng". Để kết thúc quay video, nhấn chọn biểu tượng "dừng".
 
-To preview and send your last video recorded, click the "ok" button, which will display a window where you can watch and download the video, name it and give it an optional description. Click the "send" button to send the video or the "cancel" button to discard the video recording.
+Để xem trước và gửi video bạn đã quay, nhtấn nút "ok" sẽ hiển thị một cửa sổ nơi mà bạn có thể xem và tải video này, ngoài ra bạn có thể đặt tên và ghi thêm mô tả cho nó. Nhấn nút "gửi" để gửi video hoặc nhấn "hủy" để hủy bỏ quay video.  
 
-### Links
+### Liên kết
 
-When you send a link in a message, you will get a preview of the site, and in some cases it can create a interactive attachment, like a youtube video preview or a Spotify mini player.
+Khi bạn gửi một liên kết trong một tin nhắn, bạn sẽ nhận được một bản xem trước của trang web, và trong một số trường hợp, nó có thể tạo ra một tệp đính kèm, như một bản xem trước video trên YouTube hoặc một máy nghe nhạc mini Spotify.
 
-### Location
+### Vị trí
 
-Before sharing your location if you are using a browser, you need to give Goalify.Chat permission to use your current location.
+Trước khi chia sẻ vị trí của bạn nếu bạn sử dụng trình duyệt, bạn cần cho phép Goalify.Chat sử dụng vị trí hiện tại của bạn.
 
-To share your location, click on the option `Share My Location`, that will send a message with a map preview and a link to Google Maps on your current location.
+Để chưa sẻ vị trí của bạn, nhấn vào tùy chọn `Chia sẻ vị trí của tôi`, nó sẽ gửi một tin nhắn với bản đồ xem trước và một liên kết vị trí hiện tại của bạn trên Google maps.
 
 ## Emojis
 
-To insert a emoji in a message, hit the emoji button on the left of the message input to view an emoji picker. There you can select by sections and search for emojis.
+Dể thêm một emoji trong tin nhắn, nhấn chọn nút emoji bên trái của nơi nhập tin nhắn để xem trước. Bạn cũng có thể chọn và tìm kiếm emojis tại đây.
 
-You can also insert emojis by inputing a colon `:` in the message compose box followed by typing the emoji name.
+Bạn cũng có thể chèn emojis bằng cách nhập vào dấu hai chấm `:` trong hộp soạn tin nhắn, sau đó gõ tên emoji.
 
-For example to input the smiley face emoji start typing `:smile:`, after you have input two characters of the emoji's name a list of matched emojis will be displayed.
+Ví dụ: nhập emoji mặt cười bằng cách nhập `:smile:`, sau đó một danh sách emoji phù hợp sẽ hiển thị ra, bạn có thể chọn emoji mà bạn muốn.
 
-As you input more characters from the name, the search space will narrow. You can use the `Up` and `Down` arrow keys and `Enter` to select an emoji to insert or select one by left clicking on it.
+Khi bạn thêm nhiều ký tự từ tên, không gian tìm kiếm sẽ thu hẹp. Bạn có thể sử dụng các phím mũi tên `Lên` và `Xuống` và `Enter` để chọn biểu tượng cảm xúc để chèn hoặc chọn một biểu tượng cảm xúc bằng cách nhấp chuột trái vào nó.
 
-Alternatively you can type out the full emoji name, make sure to end the name with a `:`.
+Hoặc bạn có thể gõ ra tên emoji đầy đủ, và hãy chắc chắn là kết thúc tên với `:`.
 
-### Emoji shortcuts
+### Phím tắt Emoji 
 
-Various emoji shortcuts exists to display popular text representations as graphical emojis. For example a message with the following text `:)` will display as the graphical `:slight_smile:` emoji.
+Phím tắt emoji dùng để hiển thị các emojis mà người dùng thường sử dụng nhất. Ví dụ một tin nhắn emoji với kí tự là `:)` sẽ hiển thị dưới dạng đồ họa `: slight_smile:` emoji.
 
-### Disabling emojis
+### Vô hiệu emojis
 
-Graphical emojis can be enabled/disabled in [Your Account](../managing-your-account/) settings under the **Messages** section.
+Biểu tượng Emoji có thể được bật/tắt trong cài đặt [Tài khoản của bạn](../managing-your-account/) trong phần **Tin nhắn**.
 
-When graphical emojis are disabled, emoji keywords and shortcuts will be displayed as is  e.g. `:smile:` or `:)`.
+Khi biểu tượng emoji bị tắt, từ khóa và phím tắt emoji sẽ được hiển thị như `:smile:` hoặc `:)`.
 
-## Message Actions
+##  Các tác vụ tin nhắn
 
-You can interact with already posted messages too. To open the message actions menu, hover your mouse over the desired message, click on the three dots that will appear on the right side of the message.
+Bạn có thể tương tác với các tin nhắn đã gửi bằng cách mở các tác vụ tin nhắn. Để mở tác vụ tin nhắn, hãy di chuyển chuột qua tin nhắn mà bạn muốn, nhấn vào dấu ba chấm và các tác vụ tin nhắn sẽ xuất hiện ở phía bên phải tin nhắn đó.
 
-### Editing messages
+### Chỉnh sửa tin nhắn
 
-To edit a message, click on the `edit` option on the message actions menu. Alternatively, in the message input box, press the `Up Arrow` to edit the last message sent.
+Để chỉnh sửa tin nhắn, nhấn chọn `chỉnh sửa` tin nhắn trên menu tác vụ tin nhắn. Một cách khác, trong nơi để nhập tin nhắn, nhấn `phím mũi tên chỉ lên` để chỉnh sửa tin nhắn được gửi cuối cùng.
 
-_The administrator of a Goalify.Chat team sets the permissions for who can edit messages from other users. By default, only administrators, moderators, and owners of the channels can edit messages from other users._
+_Quản trị viên của nhóm Goalify.Chat có quyền cho người nào có thể chỉnh sửa tin nhắn của những người khác. Mặc định, chỉ có quản trị viên, người kiểm duyệt, và chủ sở hữu của nhóm mới có thể chỉnh sửa tin nhắn của những người khác thuộc nhóm đó._
 
-#### Switching messages to edit
+#### Chuyển đổi tin nhắn để chỉnh sửa
 
-While editing, if the cursor is at the **beginning** of a message, pressing the `Up Arrow` switches to editing the **previous** message you wrote.
+Trong khi chỉnh sửa tin nhắn, nếu con trỏ nằm **ở đầu** của tin nhắn, nhấn `Phím mũi tên chỉ lên` để chuyển sang chế độ chỉnh sửa **tin nhắn trước** đó mà bạn đã gửi.
 
-Similarly, if the cursor is at the **end** of a message, pressing the `Down Arrow` switches to editing the **next** message you wrote.
+Tương tự như vậy, nếu con trỏ ở vị trí **cuối cùng** của tin nhắn, nhấn `phím mũi tên chỉ xuống` để chuyển sang chế độ chỉnh sửa tin nhắn **tiếp theo** mà bạn đã đã gửi.
 
-#### Drafting messages
+#### Tin nhắn nháp
 
-Goalify.Chat saves drafts of edits to your messages. That way, you can return to an edit draft after switching to another message. Pressing `ESCAPE` discards an edit draft.
+Goalify.Chat lưu trữ các tin nhắn nháp của bạn để bạn có thể chỉnh sửa sau. Bằng cách đó, bạn có thể quay lại để chỉnh sửa tin nhắn nháp đó sau khi chuyển sang các tin nhắn khác. Nhấn `ESCAPE` để xóa tin nhắn nháp đó.
 
-#### Deleting messages
+#### Xóa tin nhắn
 
-You can delete a message by clicking on `delete` option on the message actions menu.
+Bạn có thể xóa tin nhắn bằng cách nhấn nút `xóa` trên menu tác vụ tin nhắn.
 
-You can also delete a message by emptying the contents while editing and saving your changes. You will be asked to confirm the message deletion and warned that the message contents will be able to be recovered.
+Bạn cũng có thể xóa tin nhắn bằng cách để trống nội dụng trong khi chỉnh sửa và lưu thay đổi đó. Bạn sẽ được yêu cầu xác nhận việc xóa tin nhắn và nhận một cảnh báo rằng nội dung thư có thể được khôi phục lại.
 
-### Starring messages
+### Gắn dấu sao tin nhắn
 
-Starring a message makes it easy to find it later. To star a message, select the `star-message` option on the message actions menu, to un-star it just select the `unstar` option on the message actions menu.
+Gắn dấu sao tin nhắn giúp bạn dễ tìm kiếm lại tin nhắn hơn. Để gắn dấu sao cho tin nhắn, chọn `Tin nhắn gắn dấu sao` trên menu tác vụ tin nhắn, để bỏ gắn sao bạn chỉ cần chọn `Xóa dấu sao` trên menu tác vụ tin nhắn.
 
-You can find your starred messages on the starred messages tab. <!-- TODO: add link to starred message tab -->
+Bạn có thể tìm thấy những tin nhắn gắn sao của mình trên mục tin nhắn gắn dấu sao.
 
-Starred messages are per chat room and are not global, each room has its own list of messages you have starred in that channel.
+Tin nhắn được gắn dấu sao trong nhóm trò chuyện và không phải là nhóm công khai, mỗi nhóm có một danh sách tin nhắn đã được gắn sao riêng.
 
-### Pinning messages
+### Ghim tin nhắn 
 
-Pinning a message to a channel causes the message to be easily accessible via pinned messages tab. <!-- TODO: add link to pinned message tab -->  To pin a message, select the `pin-message` option on the message actions menu, to un-pin it just select the `unpin` option on the message actions menu.
+Ghim tin nhắn vào kênh làm cho tin nhắn dễ dàng truy cập qua mục tin nhắn được ghim.  Để ghim một tin nhắn, nhấn chọn `ghim tin nhắn` trên menu tác vụ tin nhắn, để hủy bỏ nó chỉ cần chọn ` xóa ghim` trên menu tác vụ tin nhắn.
 
-_The administrator of a Goalify.Chat team sets the permissions for who can pin messages in a channel. By default, only administrators, moderators, and owners of the channel can pin messages ._
+_Quản trị viên của nhóm Goalify.Chat có quyền cho phép người nào đó có thể ghim tin nhắn trong một nhóm. Theo mặc định, chỉ quản trị viên, người kiểm duyệt và chủ sở hữu của nhóm mới có thể ghim tin nhắn._
 
 ### Reactions
 
@@ -137,17 +137,17 @@ and choose an emoji.
 
 To remove an emoji reaction, click on the emoji below the message. To reiterate an existing emoji reaction that someone else posted, click on that emoji to add to that emoji's counter.
 
-### Permalinking a message
+### Liên kết tin nhắn
 
 Permalinking a message creates a link directing to that message, also if you post a permalink on another channel it creates a preview with the contents of the message.
 
 To permalink a message simply click on the `permalink` option on the message actions menu and the link will be copied to your clipboard.
 
-### Copying a message
+### Sao chép tin nhắn
 
-To copy the contents of a message to your clipboard, simply click on the `copy` option on the message actions menu.
+Để sao chép nội dung tin nhắn , chỉ cần nhấp vào tùy chọn `sao chép` trên menu tác vụ tin nhắn.
 
-### Replying to a message
+### Trả lời tin nhắn
 
 Replying to a message will create a attachment showing the message you wish to reply after the sent text.
 
@@ -157,6 +157,6 @@ To reply to a message, click on the `reply` option on the message actions menu a
 
 Replying to a already replied message will create a string of messages, showing every message quoted before the current one.
 
-### Quoting a message
+### Trích dẫn tin nhắn
 
-Quoting is very similar to replying, the only diference being that the quoted message sender will not be notified.
+Câu trích dẫn tin nhắn rất giống với câu trả lời, sự khác biệt duy nhất là người gửi tin nhắn được trích dẫn sẽ không được thông báo.

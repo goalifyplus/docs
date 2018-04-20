@@ -1,61 +1,61 @@
-# Managing your account
+# Quản lý tài khoản
 
-To access and manage your Goalify.Chat account on a server, login and **click** on your **profile picture** or **username** and select **My Account**.
+Để truy cập và quản lý tài khoản Goalify.Chat trên server, bạn cần đăng nhập và **nhấn chọn** vào **hình đại diện** hoặc **tên đăng nhập** của bạn và chọn **Tài khoản của tôi**.
 
-Changing an account setting only changes it for the server you are connected to and not all servers you have access to. You will need to configure your account on each server you connect to.
+Thay đổi cài đặt tài khoản chỉ được thay đổi trên server mà bạn đã kết nối tới và không phải server nào bạn cũng có quyền truy cập vào. Bạn sẽ cần cấu hình tài khoản của bạn trên mỗi sever mà bạn đã kết nối tới.
 
-You can manage settings for the following account sections:
+Bạn có thể quản lý cài đặt cho tài khoản như sau:
 
-## Preferences
+## Tùy chỉnh
 
-### Localization
+### Ngôn ngữ
 
-Set the language to use for the Goalify.Chat user interface.
+Cài đặt ngôn ngữ hiển thị trên Goalify.chat
 
-### Messages
+### Tin nhắn
 
-Enable or disable all desktop notifications, test desktop notifications and configure:
+Kích hoạt hoặc tắt tất cả thông báo tin nhắn trên máy tính, kiểm tra và cấu hình thông báo tin nhắn như sau:
 
-- The global notification duration in seconds
-- Enter key behaviour
-    - Normal mode (send with Enter)
-    - Alternative mode (send with Enter + Ctrl/Alt/Shift/CMD)
-    - Desktop mode (only sends with enter on desktop)
-- View mode
-    - Normal: the default spacing between messages
-    - Cozy: more space between messages (less on the screen)
-    - Compact: less space between messages (more on the screen)
-- Offline Email Notifications
-    - Disabled
-    - Every Mention/DM
+- Thời gian hiển thị thông báo được tính bằng giây
+- Hành vi nút Enter
+    - Chế độ thông thường (bấm Enter để gửi)
+    - Chế độ thay thế (nhấn Enter + Ctrl/Alt/Shift/CMD để gửi)
+    - Chế độ máy tính để bàn (chỉ gửi bằng cách nhập trên máy tính để bàn)
+- Chế độ hiển thị
+    - Thông thường: khoảng cách mặc định giữa các tin nhắn
+    - Cozy: khoảng cách rộng hơn giữa các tin nhắn (ít trên màn hình)
+    - Compact: khoảng cách ít hơn giữa các tin nhắn (nhiều hơn trên màn hình)
+- Email thông báo ngoại tuyến
+    - Tắt
+    - Tất cả Mention/DM
 
-and enable or disable the following preferences:
+và kích hoạt hoặc tắt các tùy chỉnh như sau:
 
-- __Unread Tray Icon Alert__: This will toggle if the tray icon will be highlighted when you have unread messages;
-- __Use Emojis: This will toggle emojis in messages__;
-- __Convert ASCII to Emoji__: This will toggle emoji conversion when inputing ASCII characters;
-- __Auto Load Images__: With this disabled you will have to click on images to preview them;
-- __Save Mobile Bandwidth__:
-- __Collapse embedded media by default__: This will toggle if messages with files will be collapsed by default;
-- __Unread Rooms Mode__: This will create a new section on the channel list with all channels with unread messages;
-- __Hide usernames__: This will hide usernames on the channels, showing only the users avatars;
-- __Hide roles__: This will hide role tags from users;
-- __Hide right side bar with click__: When you click outside of a tab it will automatically close it;
-- __Hide Avatars__: This will hide avatars on the channels, showing only the users usernames;
-- __Merge private groups with channels__
+- __Biểu tượng tin nhắn chưa đọc__: Tính năng này sẽ đánh dấu các dòng tin nhắn mà người dùng chưa đọc;
+- __Sử dụng Emojis: Tính năng này dùng để hiển thị emojis trong tin nhắn__;
+- __Chuyển đổi ASCII sang Emoji__: Tính năng này dùng để chuyển đổi giá trị ASCII khi nhập vào sang emoji;
+- __Tự động tải hình ảnh__: Với tính năng này, bạn sẽ phải bấm vào hình ảnh để xem trước;
+- __Tiết kiệm băng thông dung lượng__:
+- __Thu gọn Media theo mặc định__: Thao tác này dùng để đóng/mở media theo mặc định;
+- __Chế độ danh sách phòng có tin nhắn chưa đọc__: Tính năng này sẽ liệt kê danh sách các phòng có tin nhắn chưa đọc;
+- __Ẩn Tên người dùng__: Thao tác này sẽ ẩn tên người dùng trên kênh nhắn tin, chỉ hiển thị hình ảnh đại diện;
+- __Ẩn vai trò của người dùng__: Thao tác này sẽ ẩn thẻ vai trò từ người dùng
+- __Ẩn Thanh tùy chọn bên Phải__: Khi nhấn chọn vào thanh tùy chọn bên phải thì nó sẽ tự động bị ẩn đi;
+- __Ẩn hình đại diện__: Tính năng này sẽ ẩn hình đại diện trên kênh nhắn tin, chỉ hiển thị tên truy cập;
+- __Hợp nhất nhóm cá nhân với kênh nhắn tin__
 
-### Highlights
+### Điểm nổi bật
 
-Specify a comma separated list of words or phrases to trigger notifications for when mentioned by anyone in public or private channels you are a member of.
+Nhập danh sách từ hoặc cụm từ được phân cách với nhau bằng dấu phẩy tại đây, để nhận được thông báo khi danh sách từ hoặc cụm từ được đề cập đến bởi ai đó trong nhóm công khai hoặc nhóm cá nhân mà bạn là thành viên.
 
-### Sound
+### Âm thanh
 
-Configure audio notifications used for the following events:
+Cấu hình âm thanh thông báo được được sử dụng trong các sự kiện sau:
 
-- New Room
-- New Message
+- Phòng mới
+- Tin nhắn mới
 
-Available audio notifications:
+Âm thanh thông báo:
 
 - None
 - Beep
@@ -65,21 +65,21 @@ Available audio notifications:
 - Highbell
 - Seasons
 
-## Profile
+## Hồ sơ
 
-Verify and edit the following profile information:
+Kiểm tra và chỉnh sửa hồ sơ thông tin cá nhân:
 
-- Name
-- Username
+- Tên
+- Tên truy cập
 - Email
-- Set a new password
+- Cài đặt mật khẩu mới
 
-If your email has been verified by the Goalify.Chat server a tick will appear alongside it.
+Nếu email của bạn đã được xác thực trên Goalify.Chat server thì sẽ có một dấu tích xuất hiện bên cạnh nó.
 
-You can also ask to another email verification email to be sent to you from here.
+Bạn cũng có thể yêu cầu gửi email xác minh khác cho bạn tại đây.
 
-Set or change your avatar for a Goalify.Chat server by clicking on one of the images beside your current avatar. To upload a new avatar select the box with a arrow pointing up.
+Cài đặt hoặc thay đổi ảnh đại diện cho Goalify.Chat bằng cách nhấn chọn vào ảnh bên cạnh ảnh đại diện hiện tại của bạn. Để tải ảnh đại diện mới hãy chọn biểu tượng dấu mũi tên chỉ lên.
 
-## Security
+## Bảo mật
 
-Enable or disable Two Factor Authentication (2FA) for your account on a Goalify.Chat server.
+Kích hoạt hoặc tắt chứng thực hai lớp (2FA) cho tài khoản của bạn trên Goalify.Chat server.
