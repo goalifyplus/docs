@@ -86,21 +86,21 @@
 <footer>
   <div class="wrapper">
     <ul>
-      <li><a href="/download">Download</a></li>
-      <li><a href="/">Docs</a></li>
+      <li><a class="js-en-lang">English</a><a class="js-vi-lang">Vietnamese</a></li>
+      <li><a href="https://goalify.chat">About</a></li>
+      <li><a href="https://goalify.chat#download">Download</a></li>
+      <li><a href="https://demo.goalify.chat">Live Demo</a></li>
     </ul>
     <ul>
-      <li><a href="https://goalify.chat/team">Team</a></li>
-      <li><a href="https://goalify.chat/job">Jobs</a></li>
-      <li><a href="https://goalify.chat/partners">Partners</a></li>
+      <li><a href="https://goalify.plus/about">Team</a></li>
+      <li><a href="https://goalify.plus/privacy">Privacy Policy</a></li>
+      <li><a href="mailto:support@goalify.chat">Support</a></li>
     </ul>
     <ul>
-      <li><a href="https://goalify.chat/contact">Contact</a></li>
-      <li><a href="https://goalify.chat/press">Press</a></li>
-    </ul>
-    <ul>
-      <li><a href="https://shop.spreadshirt.com/rocketchat" target="_blank" data-proofer-ignore>Store</a></li>
-      <li><a href="https://www.stickermule.com/user/1070688638/stickers" target="_blank">Stickers</a></li>
+      <li><a href="mailto:contact@goalify.chat">Email</a></li>
+      <li><a href="https://www.facebook.com/goalify.plus/">Facebook</a></li>
+      <li><a href="https://www.linkedin.com/in/goalify-jsc-746788141/">Linkedin</a></li>
+      <li><a href="https://twitter.com/Goalifyplus">Twitter</a></li>
     </ul>
   </div>
 </footer>
@@ -109,9 +109,11 @@
   window.jekyll = { site: { url: '{{ site.url }}' } };
 </script>
 
+<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
 <script src="{{ site.url }}/public/js/index.js?v={{ site.version }}"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
-<script type="text/javascript"> docsearch({
+<script type="text/javascript">
+  docsearch({
     apiKey: 'd1a6be5963c2130a3ab7e721d4b91363',
     indexName: 'goalify_chat',
     inputSelector: '#search',

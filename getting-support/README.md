@@ -33,7 +33,7 @@ We have a great community that likes to give back.
 Some great places to ask your questions:
 
 <!-- - [Goalify.Chat forums](https://forums.rocket.chat/) -->
-- Stack Overflow [Goalify.Chat Tag](https://stackoverflow.com/questions/tagged/rocket.chat)
+- Stack Overflow [Goalify.Chat Tag](https://stackoverflow.com/questions/tagged/goalify.chat)
 - [Server Fault](https://serverfault.com/search?q=Goalify.Chat)
 
 Our community also often hangs out on our [community server](https://demo.goalify.chat).

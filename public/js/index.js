@@ -6,6 +6,7 @@ if (location.hostname == 'goalify.chat' && location.href.indexOf('?noredirect') 
 function scroll_toc(path) {
 	// remove base either '/docs/' or '/'
 	var base = '/docs/';
+	var currentPath = path;
 
 	path = path.indexOf(base) == 0 ? path.substring(base.length) : path.substring(1);
 
@@ -18,12 +19,34 @@ function scroll_toc(path) {
 	$('.active').removeClass('active');
 
 	if (path.length > 1) {
-		$(path).addClass('active');
+		pathA = path.replace('.vi ', '');
+		$(pathA).addClass('active');
 
-		while (path.lastIndexOf(' ') > -1) {
-			path = path.substring(0, path.lastIndexOf(' '));
-			$(path).addClass('active');
+		while (pathA.lastIndexOf(' ') > -1) {
+			pathA = pathA.substring(0, pathA.lastIndexOf(' '));
+			$(pathA).addClass('active');
 		}
+	}
+
+	var currentLang = currentPath.split('/')[1];
+	var enLang = document.querySelector('.js-en-lang');
+	var viLang = document.querySelector('.js-vi-lang');
+	var allLink = document.querySelectorAll('.toc a[href]');
+
+	if (currentLang === 'vi') {
+		enLang.style.display = 'block';
+		enLang.href = currentPath.replace('/vi', '');
+		viLang.style.display = 'none';
+
+		allLink.forEach(link => {
+			if (!link.pathname.includes('vi')) {
+				link.href = link.origin + '/vi' + link.pathname;
+			}
+		});
+	} else {
+		viLang.style.display = 'block';
+		viLang.href = '/vi' + currentPath;
+		enLang.style.display = 'none';
 	}
 }
 
