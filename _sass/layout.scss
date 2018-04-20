@@ -20,7 +20,7 @@ a, a:visited {
   text-decoration: none;
 }
 
-a:hover {
+a[href]:hover {
   color: $color-secondary;
   text-decoration: underline;
 }
@@ -347,7 +347,7 @@ main {
 }
 
 footer {
-  padding: 4em 0 8em;
+  padding: 4em 0 10em;
   background-color: $color-dark;
   color: #fff;
 
@@ -373,7 +373,7 @@ footer {
   }
 
   a:hover {
-    color: #fff;
+    color: #fff !important;
   }
 }
 

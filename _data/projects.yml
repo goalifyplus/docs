@@ -23,27 +23,3 @@
     File Upload: file-upload/
     Integrations: integrations/
 
-# -
-#   name: Goalify.Chat Developer Guides
-#   icon: code
-#   description: Guides for developing and modifying Goalify.Chat's code
-#   path: developer-guides/
-#   pages:
-#     Quick Start: quick-start/
-#     Branches and Releases: branches-and-releases/
-#     Testing: testing/
-#     Rest API: rest-api/
-#     Realtime API: realtime-api/
-#     Livechat API: livechat-api/
-
-# -
-#   name: Goalify.Chat Android
-#   icon: android
-#   description:
-#   path: https://github.com/RocketChat/Goalify.Chat.Android
-
-# -
-#   name: Goalify.Chat iOS
-#   icon: apple
-#   description:
-#   path: https://github.com/RocketChat/Goalify.Chat.iOS
