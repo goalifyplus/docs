@@ -10,7 +10,7 @@ Bạn có thể tạo một tài khoản bằng cách cung cấp:
 - Email
 - Mật khẩu và mật khẩu xác nhận.
 
-Server có thể yêu cầu bạn xác minh email của bạn, điều này được thực hiện bằng cách đơn giản là nhấp vào liên kết được gửi đến email mà bạn đăng ký.
+Server có thể yêu cầu bạn xác minh email của bạn, điều này được thực hiện bằng cách đơn giản là nhấn vào liên kết được gửi đến email mà bạn đăng ký.
 
 _Các Server có thể được cấu hình theo nhiều cách khác nhau, do đó màn hình đăng ký có thể yêu cầu các thông tin khác nhau và vận hành một cách khác. Nếu bạn không chắc cách đăng ký, vui lòng liên hệ với quản trị viên Server của bạn._
 

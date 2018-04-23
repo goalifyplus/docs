@@ -34,9 +34,9 @@ Here you can see all kinds of information about the current channel. If you have
 
 ## Search Messages
 
-Rocket Chat search supports basic search commands which work like Gmail search.
+Goalify.Chat search supports basic search commands which work like Gmail search.
 
-Rocket Chat also supports the use of "[regular expressions](https://en.wikipedia.org/wiki/Regular_expression)". The benefits of regular expressions are great search flexibility and the ability to search chat entries in any language, even ones which are traditionally a challenge to search (like "CJK" languages - Chinese, Japanese, Korean).
+Goalify.Chat also supports the use of "[regular expressions](https://en.wikipedia.org/wiki/Regular_expression)". The benefits of regular expressions are great search flexibility and the ability to search chat entries in any language, even ones which are traditionally a challenge to search (like "CJK" languages - Chinese, Japanese, Korean).
 
 ### Basic Search Commands
 

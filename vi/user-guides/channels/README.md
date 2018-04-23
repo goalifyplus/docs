@@ -1,75 +1,75 @@
-# Channels
+# Nhóm
 
-Conversations in Goalify.Chat are organized into __channels__. Channels are chat rooms with many useful features.
+Cuộc trò chuyện trong Goalify.Chat được tạo trong __nhóm__. Các nhóm là các phòng trò chuyện với nhiều chức năng khác nhau.
 
-There are three kinds of channels: [public channels](#public-channels), [private groups](#private-groups), and [direct (1-on-1) messages](#direct-messages).
+Có ba loại phòng: [Phòng công khai](#public-channels), [phòng riêng tư](#private-groups) và [Tin nhắn 1-on-1][#direct-messages].
 
-## Public channels
+## Nhóm công khai
 
-**Public channels** (also called **channels** for short) are the most important kind. Use channels for conversations that are open to your entire team. A channel can be joined by anyone on your team.
+**Nhóm công khai** (còn được gọi tắt là **nhóm**) là loại quan trọng nhât. Sử dụng nhóm cho các cuộc trò chuyện mà các thành viên trong nhóm có thể tham gia.
 
-Channels make it easy to find what's going on with your team. New team members can join a channel and read all the information previously shared by other users.
+Nhóm làm các thành viên có thể theo kịp dễ dàng tình hình trong nhóm. Thành viên mới có thể tham gia nhóm và đọc tất cả các thông tin trước đó đã được chia sẻ bởi các thành viên khác.
 
-When in doubt, create a channel. Public conversations help you build a knowledge base of your organization with minimal effort. For example, create a channel for a company department or to discuss a certain programming language.
+Khi có khuất mắc, hãy tạo một nhóm. Cuộc nói chuyện công khai có thể giúp bạn củng cố kiến thức trong tổ chức mà không cần phải nỗ lực quá nhiều. Ví dụ, tạo một nhóm có các thành viên thuộc một phòng ban của công ty hoặc có thể tạo một nhóm để thảo luận về một chủ đề ngôn ngữ lập trình.
 
-## Private groups
+## Nhóm riêng tư
 
-**Private groups** are closed channels. They are visible only to their members. Use private groups for subjects that are sensitive, confidential, or limited to a small group of team members.
+**Nhóm Riêng tư** là một nhóm kín. Các nhóm này chỉ được thấy bỏi những thành viên thuộc nhóm đó. Nhóm kín được sử dụng cho những chủ đề nhạy cảm. cần sự bảo mật hoặc giới hạn đối với một số thành viên trong nhóm.
 
-Private groups can be joined by invitation only. The administrator sets the permissions that determine who can invite others to a private group. By default, only administrators, room owners, and moderators can invite others to private rooms.
+Bạn có thể tham gia vào nhóm Riêng tư thông qua lời mời. Quản trị viên của nhóm này sẽ gán quyền cho thành viên nào có quyền mời những người dùng khác vào nhóm. Mặc định, chỉ quản trị viên, người sở hữu nhóm và người kiểm duyệt nhóm mới có thể mời các người dùng khác vào phòng.
 
-## Direct Messages
+## Tin nhắn trực tiếp
 
-**Direct messages (DMs)** are private, 1-on-1 conversation between team members. You can think of a DM as a private group with only two members.
+**Tin nhắn trực tiếp (DMs)** là cuộc hội thoại kín, cuộc nói chuyện 1-với-1 giữa các thành viên nhóm. Bạn có thể nghĩ DM là một nhóm kín với chỉ hai người dùng.
 
-## Listing channels
+## Danh sách nhóm
 
-The public and private channels you are watching are listed in the left sidebar under the "Channels" sections.
+Danh sách các nhóm công khai và nhóm riêng tư sẽ được hiển thị ở thanh công cụ ở bên trái màn hình.
 
-Public channels are indicated by a hash symbol next to the channel name, and private channels by a lock. Public channels appear first, private channels below them and each group will be ordered alphabetically.
+Nhóm công khai là ký hiệu bằng dấu thăng (#) kế bên tên nhóm và nhóm riêng tư được ký hiệu bằng ổ khóa. Nhóm công khai sẽ được sắp xếp trước nhóm riêng tư và mỗi phần sẽ được lọc theo bảng chữ cái.
 
-### Unread messages
+### Tin nhắn chưa đọc
 
-When a channel has new messages, it's name will be highlighted on the channel list.
+Khi một nhóm có tin nhắn mới, tên của nó sẽ được đánh dấu trên danh sách các nhóm.
 
-If using Unread Mode, a new section called "Unread" will appear on the left sidebar and all channels with unread messages will be moved to this new section.
+Nếu sử dụng chế độ chưa đọc, một phần mới gọi là "Chưa đọc" sẽ xuất hiện bên phía trái của ứng dựng và tất cả các nhóm với tin nhắn chưa đọc sẽ được di chuyển vào phần này.
 
-To activate Unread Mode you must go to Preferences under My Account and change the "Sidebar channel list mode" setting to "Unread Rooms Mode".
+Để kích hoạt tính năng Phòng Chưa Đọc, bạn hãy vào Tùy chỉnh bên trong Tài khoản của tôi và thay đổi tùy chỉnh từ "Chế độ hiển thị danh sách ở thanh bên" sang "Chế độ phòng chưa đọc".
 
-### Mentions
+### Nhắc đến
 
-When someone mentions you with `@username`, `@all` or `@here`, a symbol or a number will appear alongside the channel name.  If you were mentioned, an `@` will show.  If someone mentions `@all` or `@here` a number will show up showing the number of times you were mentioned.
+Khi một ai đó được nhắc đến bằng `@username`,`@all` hoặc `@here`, một biểu tượng hoặc một số sẽ được hiển thị bên cạnh tên của nhóm. Nếu bạn được nhắc đến thì kí tự `@` sẽ xuất hiện. Nếu một ai đó sử dụng `@all` hoặc `@here` thì số lần bạn được nhắc đến sẽ hiển thị bởi một số tự nhiên.
 
-## Joining new channels and starting direct messages
+## Tham gia vào nhóm mới và bắt đầu gửi tin nhắn
 
-There are three ways of joining a public channel, you can either search for it, be invited to it or be mentioned in it.
+Có ba cách để tham gia nhóm công khai, bạn có thể tìm kiếm nhóm đó, được mời tham gia hoặc được đề cập trong nhóm.
 
-For starting a direct message you can either search the user you want to talk or click on that users avatar and click on the "Conversation Button".
+Để bắt đầu một tin nhắn trực tiếp, bạn có thể tìm kiếm người dùng bạn muốn nói chuyện hoặc nhấp vào hình đại diện của người dùng đó và nhấp vào "Nút hội thoại".
 
-To search for channels and users, use the search bar under your account box. Alternatively you can press <kbd>Ctrl/Cmd</kbd> + <kbd>k</kbd> to access the search bar quickly.
+Để tìm kiếm nhóm và các thành viên, hãy sử dụng thanh tìm kiếm bên cạnh tài khoản của bạn. Hoặc bạn có thể nhấn <kbd> Ctrl / Cmd </ kbd> + <kbd> k </ kbd> để truy cập nhanh vào thanh tìm kiếm.
 
-A search will find channels (including the ones you are part of) and users. Private channels can't be searched.
+Kết quả tìm kiếm sẽ tìm thấy các nhóm (bao gồm cả các kênh bạn là thành viên) và người dùng. Không thể tìm kiếm nhóm riêng tư.
 
-When you click in a search result, the following can happen:
+Khi bạn chọn một kết quả tìm kiếm, những trường hợp có thể xảy ra:
 
-- If the result is a channel, and you already aren't part of it, you will join that channel;
-- If the result is a user, you will start a direct message with that user;
+- Nếu kết quả tìm kiếm là một nhóm, và bạn không thuộc nhóm đó, bạn sẽ được tham gia vào nhóm đó;
+- Nếu kết quả tìm kiếm là một người, bạn sẽ bắt đầu trò chuyện trực tiếp với người đó;
 
-## Leaving channels
+## Rời khỏi nhóm
 
-There are two notions of leaving a channel:
+Sau đây là hai cách để bạn rời khỏi nhóm:
 
-1. To **hide** a channel is to remain a member of the channel but to remove it from your list of channels on the left-hand pane.
-2. To **leave** a channel is to remove it from your list of channels _and to leave the channel_ (i.e., no longer be a member of the channel).
+1. **Ẩn** một nhóm là hành động xóa nhóm đó khỏi danh sách thanh hiển thị nhưng vẫn bảo toàn số lượng thành viên trong phòng.
+2. **Rời** một nhóm là hành động xóa nhóm đó khỏi danh sách hiển thị _và đồng thời rời khỏi nhóm_ (Xóa tên khỏi dánh sách thành viên tham gia nhóm).
 
-Every channel has an **owner**, and the owner of a channel cannot leave a channel until setting someone else as the owner of that channel.
+Mỗi nhóm đều có một **chủ sỡ hữu** và người đó không thể rời khỏi phòng cho đến khi một người sở hữu khác được gán cho nhóm đó.
 
-To **leave** a channel, enter the command `/part` or `/leave` in the message window. Alternatively, hover your mouse over the channel in the list of channels on the left-hand side and click on the `leave channel`button.
+Để **rời** khỏi kênh, hãy nhập lệnh `/part` hoặc `/leave`. Cách khác, di chuyển chuột qua nhóm trong danh sách nhóm ở phía bên trái và nhấp vào nút rời khỏi nhóm.
 
-To **hide** a channel, hover your mouse over the channel in the list of channels on the left-hand side and click on the `hide channel` button.
+Để **Ẩn** một nhóm, di chuyển con trỏ lên nhóm đó và nhấp chọn `Ẩn phòng`.
 
-## Creating Channels
+## Tạo nhóm
 
-To create a channel you need to click on the plus `+` button that is alongside the channel search bar.
+Để tạo một nhóm bạn cần nhấp vào nút có ký hiệu `Tạo kênh mới` được đặt tại cùng dòng với nút tìm kiếm phòng.
 
-This will open a pop up, and there you can set the name of that channel, if it is public or private, set it to read-only and invite users.
+Sau khi nhấp, người dùng sẽ thấy một bảng hiển thị và người dùng có thể thiết lập tên của nhóm, thuộc tính công khai hay riêng tư, tùy chỉnh nhóm ở chế độ chỉ đọc và mời thêm thành viên tham gia nhóm.

@@ -1,144 +1,145 @@
-# Channel Actions
+# Các hành động của nhóm
 
-With channels you can also do more than merely post messages and upload files, you can interact in various ways through the channel actions menu. Channel actions are located to the right of the channel title. Some of the menus are accessible by clicking on the three dots at the end of the channel header.
+Ngoài những thao tác trong nhóm đơn giản như việc gửi tin nhắn và tải lên các tệp dữ liệu, bạn có thể thực hiện nhiều tương tác hơn thông qua Menu các hành động của nhóm. Menu các hành động của nhóm được đặt ở bên góc phải của khung tên nhóm. Một số tính năng có thể được truy cập bằng cách nhấn vào nút ba chấm ở phần cuối tiêu đề nhóm.  
 
-_Channel actions vary depending on the server configuration, so the items listed below might not all be visible in your installation._
+_Các hành động của nhóm sẽ phụ thuộc vào tùy chỉnh của Server, vì vậy một số tùy chỉnh sẽ không được hiển thị trong danh sách._
 
-## Favorites
+## Nhóm yêu thích
 
-To help organize and prioritize your communications, you can **favorite** (or **star**) channels, private groups, and DMs.
+Để giúp việc sắp xếp và phân biệt thứ tự các cuộc trò chuyện, bạn có thể đánh dấu nhóm **yêu thích** (hoặc **sao**), nhóm riêng tư, và DMs.
 
-To favorite a channel, click on the star icon to the left of the channel header (next to the room name).
+Để tạo nhóm yêu thích, nhấn vào ký tự ngôi sao ở góc trái của nhóm (bên cạnh tên phòng).
 
-Favoriting a channel moves it to a "Favorites" section on the channels list, making it easier to access and find.
+Khi một nhóm đã được đánh dấu là nhóm yêu thích thì nó sẽ được chuyển vào phần "Yêu thích", điều này sẽ giúp người dùng dễ dàng tìm kiếm và truy cập.
 
-## Channel Info
+## Thông tin nhóm
 
-Here you can see all kinds of information about the current channel. If you have the proper permissions, this information can be edited. These are the channel info options:
+Ở trong phần này, bạn có thể thấy toàn bộ các thông tin về nhóm đó. Những thông tin này bạn có thể chỉnh sửa nếu bạn có quyền phù hợp. Sau đây là một số thông tin của nhóm:
 
-- __Channel Name__: The name of the channel, how users see the title and find the channel via search.
+- __Tên nhóm__: Đây là tên của nhóm, đây là tên người dùng sẽ thấy và sẽ dùng nó để tìm kiếm.
 
-- __Topic__: The topic shows next to the title on the channel header. Great for giving more info on what the channel is about.
+- __Chủ đề__: Chủ đề sẽ được thể hiện ở bên cạnh tên của nhóm. Chủ đề giúp cho người dùng có cái nhìn tổng quan hơn về nhóm.
 
-- __Announcement__: The announcement is shown in a very visible bar under the channel header.
+- __Thông báo__: Thông báo sẽ được hiển thị ở phía dưới tiêu đề của nhóm.
 
-- __Description__: The description of the channel.
+- __Mô tả__: Đây là phần mô tả của nhóm.
 
-- __Private__: Tells whether a channel is private, and can set the channel to private or public.
+- __Riêng tư__: Thuộc tính này cho người dùng biết là nhóm có chế độ riêng tư hay không. Và thuộc tính này có thể được cài đặt là riêng tư hoặc công khai.
 
-- __Read Only__: Tells whether a channel is read only, and toggles the read only status on the channel. In read only channels, messages can only be posted by people with the right permission. Good for announcements channels and such.
+- __Chỉ đọc__: Thuộc tính này cho biết người dùng trong nhóm có quyền chỉ đọc tin nhắn hay không. Trong nhóm này, tin nhắn chỉ được gửi bởi những người có quyền nhất định. Nhóm này đa phần được dùng để gửi thông báo.
 
-- __Archived__: Tells if a channel is archived, and toggles the archived status of a channel. Nobody can post messages in an archived channel, and channel search will not find that channel.
+- __Đã lưu__: Thuộc tính này cho biết nhóm này có được lưu trữ hay không. Không một ai có thể gửi tin nhắn và tính năng tìm kiếm sẽ không hoạt động đối với nhóm này.
 
-- __Password__: Tells whether a channel has a password and let you set the password. If a channel has a password, other users need to enter the password to become a member of the channel.
+- __Mật khẩu__: Thuộc tính này cho biết nhóm này có mật khẩu hay không. Nếu một nhóm được cài mật khẩu, người dùng cần phải nhập mật khẩu để tham gia.
 
-## Search Messages
+## Tìm kiếm tin nhắn
 
-Rocket Chat search supports basic search commands which work like Gmail search.
+Goalify.Chat hỗ trợ bạn dễ dàng tìm kiếm tìm các lệnh, nó hoạt động giống như tìm kiếm của Gmail.
 
-Rocket Chat also supports the use of "[regular expressions](https://en.wikipedia.org/wiki/Regular_expression)". The benefits of regular expressions are great search flexibility and the ability to search chat entries in any language, even ones which are traditionally a challenge to search (like "CJK" languages - Chinese, Japanese, Korean).
+Goalify.Chat cũng hỗ trợ tìm kiếm thông qua  "[regular expressions](https://en.wikipedia.org/wiki/Regular_expression)".
+Lợi ích của việc tìm kiếm thông qua regular expressions là tính linh hoạt và khả năng tìm kiếm các cuộc trò chuyện bằng bất kỳ ngôn ngữ nào, thậm chí với ngôn ngữ khó như Trung Quốc, Nhật Bản và Hàn Quốc.
 
-### Basic Search Commands
+### Các lệnh tìm kiếm đơn giản
 
-You can use these commands before or after entering search terms:
+Bạn có thể sử dụng các lệnh này trước hoặc sau khi điền vào cụm tìm kiếm:
 
-`from:me` to search for messages only created by the current user.
+`from:me` dùng để tìm kiếm các tin nhắn của người dùng đăng nhập hiện tại.
 
-`from:user.name` to search for messages created by a specific user. The username entered must be the format without spaces (i.e. "john.doe" and not "John Doe". To search for any time a user was mentioned, just search for their username.
+`from:user.name` dùng để tìm kiếm tin nhắn của một người dùng nhất định. Tên người dùng được nhập vào phải theo định dạng không có khoảng cách (Ví dụ như "john.doe" chứ không phải là "John Doe"). Để tìm lúc người dùng nào đó được nhắc đến chỉ cần tìm theo tên của họ.
 
-`has:star` returns messages that are starred by the current user.
+`has:star` trả về tin nhắn đã được gắn sao của người dùng hiện tại.
 
-`is:pinned` or `has:pin` returns messages that are pinned in the current channel.
+`is:pinned` hoặc `has:pin` trả về tin nhắn đã được gắn của người dùng trong nhóm hiện tại.
 
-`has:url` or `has:link` returns messages that contain a link.
+`has:url` hoặc `has:link` trả về tin nhắn chứa đường dẫn trong nội dung.
 
-`has:location` or `has:map` returns messages that have a location attached.
+`has:location` hoặc `has:map` trả về tin nhắn có vị trí đính kèm.
 
-`before:dd/mm/yyyy`, `after:dd/mm/yyyy` and `on:dd/mm/yyyy` return message that were created before, after, or on the provided date.
-Dashes `dd-mm-yyyy` or dots `dd.mm.yyyy` can be used instead of slashes.
+`before:dd/mm/yyyy`, `after:dd/mm/yyyy` và `on:dd/mm/yyyy` trả về tin nhắn đã được tạo trước hoặc sau ngày bạn tìm kiếm.
 
-`order:asc`, `order:ascend`, or `order:ascending` sorts messages by ascending timestamp.
+Định dạng gạch `dd-mm-yyyy` hoặc định dạng chấm `dd.mm.yyyy` có thể dùng để thay thế định dạng xuyệt.
 
-`order:desc`, `order:descend`, or `order:descending` sorts messages by descending timestamp.
+`order:asc`, `order:ascend`, hoặc `order:ascending` sắp xếp tin nhắn theo thứ tự tăng dần theo thời gian.
 
-You can also jump to where a message is located by hovering the mouse over the search result and selecting `jump to message`.
+`order:desc`, `order:descend`, hoặc `order:descending` sắp xếp tin nhắn theo thứ tự giảm dần theo thời gian.
+
+Bạn cũng có thể chuyển tới vị trí của tin nhắn đó bằng cách di chuyển chuột vào kết quả tìm kiếm và nhấn vào `chuyển đến tin nhắn`.
 
 ### Regex
 
-These references tell more about the powerful world of regex:
+Những tài liệu này sẽ nói thêm về những tiềm năng của Regex:
 
 - Wikipedia - <https://en.wikipedia.org/wiki/Regular_expression>
 - Regex 101 - <https://regex101.com/#javascript>
 - Regexr - <http://regexr.com/>
 - Regex Info - <http://www.regular-expressions.info/javascriptexample.html>
 
-## Members List
+## Danh sách thành viên
 
-Here you can see all the users on channel and see more information about them. If you have the proper permission, you can manage them on your channel.
+Ở đây, bạn có thể thấy tất cả các thành viên của nhóm và thông tin của từng người. Bạn có thể quản lý thành viên nếu có quyền phù hợp.
 
-At first, only the current active users are shown. To see all users, click the `show all` link.
+Đầu tiên, chỉ những người dùng đang ở chế độ hoạt động sẽ được hiển thị. Để thấy tất cả các người dùng, nhấn vào đường dẫn `hiển thị tất cả`.
 
-To see more information on a user, click their name on the list.
+Để xem nhiều thông tin hơn vể người dùng, nhấn chọn tên của họ trong danh sách. 
 
-The user preview screen shows their name, username, any role tags they might have, and their current timezone.
-From there you can also:
+Tên người dùng, tên truy cập, phân quyền của người dùng và múi giờ của họ sẽ được hiển thị trên màn hình. Từ đó, bạn có thể thấy thêm:
 
-- Start a direct conversation with the user by clicking the `conversation` option
+- Bắt đầu một cuộc nói chuyện với người đó bằng cách bấm vào tùy chỉnh `cuộc trò chuyện`.
 
-- Start a video call with the user
+- Bắt đầu cuộc gọi hình ảnh với người dùng đó.
 
-- Set the user as channel owner
+- Cài đặt quyền sở hữu nhóm cho người dùng đó.
 
-- Set the user as channel moderator
+- Cài đặt quyền kiểm duyệt nhóm cho người dùng đó.
 
-- Mute the user
+- Khóa âm thanh người dùng.
 
-- Remove the user from the channel
+- Xóa người dùng đó khỏi nhóm.
 
-## Notifications
+## Thông báo
 
-You can change the behavior of notifications for channels where you are a member. By default, a channel notifies you whenever someone mentions you or uses the `@all` mention.
+Bạn có thể thay đổi hành động của thông báo cho từng nhóm. Mặc định, một nhóm sẽ thông báo bạn mỗi khi người dùng khác nhắc đến bạn hoặc sử dụng lệnh `@all`.
 
-These options are on the channel notifications tab:
+Sau đây là một số tùy chỉnh cho thông báo trên nhóm:
 
-- __Disable Notifications__: disable all notifications for the channel.
+- __Tắt thông báo__: Tắt thông báo tin nhắn trong nhóm.
 
-- __Audio__: select whether the channel will emit a sound whenever someone mentions you or posts a message in that channel. The sound to play can be specified.
+- __Âm thanh__: Tùy chỉnh để quyết định việc âm thanh được phát ra khi người dùng được nhắn đến hoặc có tin nhắn mới trong nhóm. Âm thanh thông báo có thể được chỉ định riêng.
 
-- __Desktop__: controls notification behavior when using any desktop app or browser.
+- __Máy tính__: Quản lý cài đặt thông báo khi sử dụng Goalify.Chat trên máy tính hay trên trình duyệt web.
 
-- __Mobile__: controls push notification behavior when using any mobile app.
+- __Di động__: Quản lý cài đặt thông báo khi sử dụng Goalify.Chat trên điện thoại di động.
 
-- __Email__: set whether email is sent whenever someone mentions you or posts a message, or disable email notifications.
+- __Email__: Cài đặt gửi email thông báo khi có ai đó nhắc đến bạn hoặc gửi đến bạn một tin nhắn, bạn cũng có thể tắt tùy chỉnh gửi email thông báo.
 
-- __Unread Room Status__: Controls whether the channel on the channel list is highlighted when there is a new message or mention.
+- __Trạng thái phòng có tin nhắn chưa đọc__: Quản lý danh sách nhóm được đánh dấu khi có tin nhắn mới hay được nhắc đến.
 
-- __Unread Tray Icon__: Controls whether the tray icon is highlighted when there are new messages or mentions on the current channel.
+- __Ký hiệu tin nhắn chưa đọc__: Quản lý các tin nhắn được đánh dấu chưa đọc khi có tin nhắn mới đến hoặc được nhắc đến trong nhóm hiện tại.
 
-## Files List
+## Danh sách tập tin
 
-A list of all the files uploaded to the current channel.
+Đây là một danh sách tất cả các tập tin được cập nhật từ nhóm hiện tại của bạn.
 
-## Mentions
+## Nhắc đến
 
-All messages which mentioned you in the current channel.
+Đây là nơi lưu trữ tất cả tin nhắn nhắc đến bạn trong nhóm hiện tại.
 
-## Starred Messages
+## Tin nhắn đã gắn sao
 
-All messages which you have starred in the current channel.
+Đây là nơi lưu trữ tất cả các tin nhắn mà bạn đã gắn dấu sao trong nhóm hiện tại của bạn.
 
-## Pinned Messages
+## Tin nhắn đã ghim
 
-All messages that were pinned on the current channel.
+Đây là nơi lưu trữ tất cả các tin nhắn mà bạn đã ghim trong nhóm hiện tại của bạn.
 
 ## OTR
 
-OTR stands for __Off The Record__ Messaging.
+OTR là viết tắt của __Off The Record__.
 
-OTR is basically end to end encrypted conversations.
+OTR về cơ bản là để mã hóa các cuộc hội thoại.
 
-You can only use OTR in direct messages (one-on-one) and both sides must be online.
+Bạn có thể chỉ sử dụng OTR trực tiếp trong các tin nhắn (tin nhắn một-một) và cả trong các nhóm trực tuyến mà bạn tham gia.
 
-To start OTR conversation, click on _START OTR_. The other user will be notified to start a OTR.
+Để bắt đầu một cuộc trò chuyện OTR, nhấn chọn _START OTR_. Các người dùng khác cũng sẽ nhận được thông báo để bắt đầu sử dụng OTR.
 
-After your request is confirmed by other side, messages are encrypted. Encrypted messages have a key icon on the right side.
+Sau yêu cầu của bạn được chấp nhận bởi những người dùng khác, tin nhắn của bạn sẽ được mã hóa. Tin nhắn đã được mã hóa phải có một biểu tượng khóa ở phía bên phải.  

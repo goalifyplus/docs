@@ -38,15 +38,15 @@ và kích hoạt hoặc tắt các tùy chỉnh như sau:
 - __Tiết kiệm băng thông dung lượng__:
 - __Thu gọn Media theo mặc định__: Thao tác này dùng để đóng/mở media theo mặc định;
 - __Chế độ danh sách phòng có tin nhắn chưa đọc__: Tính năng này sẽ liệt kê danh sách các phòng có tin nhắn chưa đọc;
-- __Ẩn Tên người dùng__: Thao tác này sẽ ẩn tên người dùng trên kênh nhắn tin, chỉ hiển thị hình ảnh đại diện;
+- __Ẩn Tên người dùng__: Thao tác này sẽ ẩn tên người dùng trên nhóm nhắn tin, chỉ hiển thị hình ảnh đại diện;
 - __Ẩn vai trò của người dùng__: Thao tác này sẽ ẩn thẻ vai trò từ người dùng
 - __Ẩn Thanh tùy chọn bên Phải__: Khi nhấn chọn vào thanh tùy chọn bên phải thì nó sẽ tự động bị ẩn đi;
-- __Ẩn hình đại diện__: Tính năng này sẽ ẩn hình đại diện trên kênh nhắn tin, chỉ hiển thị tên truy cập;
-- __Hợp nhất nhóm cá nhân với kênh nhắn tin__
+- __Ẩn hình đại diện__: Tính năng này sẽ ẩn hình đại diện trên nhóm nhắn tin, chỉ hiển thị tên truy cập;
+- __Hợp nhất nhóm riêng tư với nhóm nhắn tin__
 
 ### Điểm nổi bật
 
-Nhập danh sách từ hoặc cụm từ được phân cách với nhau bằng dấu phẩy tại đây, để nhận được thông báo khi danh sách từ hoặc cụm từ được đề cập đến bởi ai đó trong nhóm công khai hoặc nhóm cá nhân mà bạn là thành viên.
+Nhập danh sách từ hoặc cụm từ được phân cách với nhau bằng dấu phẩy tại đây, để nhận được thông báo khi danh sách từ hoặc cụm từ được đề cập đến bởi ai đó trong nhóm công khai hoặc nhóm riêng tư mà bạn là thành viên.
 
 ### Âm thanh
 

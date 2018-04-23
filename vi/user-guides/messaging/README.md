@@ -16,7 +16,7 @@ Giữ `Alt` hoặc `Command` và phím dấu mũi tên để di chuyển tới �
 
 ## Thông báo tới các thành viên khác trong nhóm
 
-Để một ai đó tương tác trong nhóm, nhập `@` và tên người dùng, ví dụ `@guarilha`. (Họ sẽ thấy thông báo màu đỏ trên kênh và được thông báo qua email hoặc thiết bị di động khi họ không trực tuyến)
+Để một ai đó tương tác trong nhóm, nhập `@` và tên người dùng, ví dụ `@guarilha`. (Họ sẽ thấy thông báo màu đỏ trên nhóm và được thông báo qua email hoặc thiết bị di động khi họ không trực tuyến)
 
 Bạn cũng có thể thông báo cho tất cả thành viên trong nhóm bằng cách nhập `@all`. Nhưng bạn nên tránh sử dụng `@all` bởi vì nó sẽ gửi thông báo cho tất cả mọi người. Mặc dù `@ all` rất hữu ích cho các thông báo quan trọng, nhưng nó có thể làm người khác mất tập trung nếu bị lạm dụng nó.
 
@@ -42,7 +42,7 @@ _Lưu ý rằng quản trị viên có thể chặn các loại tệp nhất đ�
 
 Trước khi bạn gửi một tin nhắn audio, Nếu bạn sử dụng trình duyệt, bạn cần cho phép Goalify.Chat sử dụng microphone.
 
-Để bắt đầu ghi âm, bạn chỉ cần nhấp vào tùy chọn `Tạo mới tin nhắn Audio` trên danh sách đính kèm. Để ngừng ghi âm chỉ cần nhấn vào biểu tưởng (v) hoặc (x).
+Để bắt đầu ghi âm, bạn chỉ cần nhấn vào tùy chọn `Tạo mới tin nhắn Audio` trên danh sách đính kèm. Để ngừng ghi âm chỉ cần nhấn vào biểu tưởng (v) hoặc (x).
 
 Bạn nên nghe thử audio trước khi gửi tin nhắn đi.
 
@@ -50,7 +50,7 @@ Bạn nên nghe thử audio trước khi gửi tin nhắn đi.
 
 Trước khi gửi tin nhắn video, Nếu bạn sử dụng trình duyệt, bạn cần cho phép Goalify.Chat truy cập vào camera của bạn.
 
-Để bắt đầu quay video, bạn chỉ cần nhấp vào tùy chọn `Tạo mới tin nhắn video` trên danh sách đính kèm.
+Để bắt đầu quay video, bạn chỉ cần nhấn vào tùy chọn `Tạo mới tin nhắn video` trên danh sách đính kèm.
 
 Sau đó nhấn chọn biểu tượng hình tròn, trong khi đang quay video biểu tượng bắt đầu sẽ bị thay thế bởi biểu tượng "dửng". Để kết thúc quay video, nhấn chọn biểu tượng "dừng".
 
@@ -74,7 +74,7 @@ Bạn cũng có thể chèn emojis bằng cách nhập vào dấu hai chấm `:`
 
 Ví dụ: nhập emoji mặt cười bằng cách nhập `:smile:`, sau đó một danh sách emoji phù hợp sẽ hiển thị ra, bạn có thể chọn emoji mà bạn muốn.
 
-Khi bạn thêm nhiều ký tự từ tên, không gian tìm kiếm sẽ thu hẹp. Bạn có thể sử dụng các phím mũi tên `Lên` và `Xuống` và `Enter` để chọn biểu tượng cảm xúc để chèn hoặc chọn một biểu tượng cảm xúc bằng cách nhấp chuột trái vào nó.
+Khi bạn thêm nhiều ký tự từ tên, không gian tìm kiếm sẽ thu hẹp. Bạn có thể sử dụng các phím mũi tên `Lên` và `Xuống` và `Enter` để chọn biểu tượng cảm xúc để chèn hoặc chọn một biểu tượng cảm xúc bằng cách nhấn chuột trái vào nó.
 
 Hoặc bạn có thể gõ ra tên emoji đầy đủ, và hãy chắc chắn là kết thúc tên với `:`.
 
@@ -106,7 +106,7 @@ Tương tự như vậy, nếu con trỏ ở vị trí **cuối cùng** của ti
 
 #### Tin nhắn nháp
 
-Goalify.Chat lưu trữ các tin nhắn nháp của bạn để bạn có thể chỉnh sửa sau. Bằng cách đó, bạn có thể quay lại để chỉnh sửa tin nhắn nháp đó sau khi chuyển sang các tin nhắn khác. Nhấn `ESCAPE` để xóa tin nhắn nháp đó.
+Goalify.Chat lưu trữ các tin nhắn nháp của bạn để bạn có thể chỉnh sửa sau. Ngoài ra bạn có thể quay lại để chỉnh sửa tin nhắn nháp đó sau khi chuyển sang các tin nhắn khác. Nhấn `ESCAPE` để xóa tin nhắn nháp đó.
 
 #### Xóa tin nhắn
 
@@ -124,38 +124,35 @@ Tin nhắn được gắn dấu sao trong nhóm trò chuyện và không phải 
 
 ### Ghim tin nhắn 
 
-Ghim tin nhắn vào kênh làm cho tin nhắn dễ dàng truy cập qua mục tin nhắn được ghim.  Để ghim một tin nhắn, nhấn chọn `ghim tin nhắn` trên menu tác vụ tin nhắn, để hủy bỏ nó chỉ cần chọn ` xóa ghim` trên menu tác vụ tin nhắn.
+Ghim tin nhắn vào nhóm làm cho tin nhắn dễ dàng truy cập qua mục tin nhắn được ghim.  Để ghim một tin nhắn, nhấn chọn `ghim tin nhắn` trên menu tác vụ tin nhắn, để hủy bỏ nó chỉ cần chọn ` xóa ghim` trên menu tác vụ tin nhắn.
 
 _Quản trị viên của nhóm Goalify.Chat có quyền cho phép người nào đó có thể ghim tin nhắn trong một nhóm. Theo mặc định, chỉ quản trị viên, người kiểm duyệt và chủ sở hữu của nhóm mới có thể ghim tin nhắn._
 
-### Reactions
+### Bày tỏ cảm xúc
 
-You can quickly respond to any message with an emoji reaction. Reactions can be used for any purpose including voting, checking off to-do items, showing excitement, answering questions or just for fun.
+Bạn có thể trả lời nhanh bất kỳ tin nhắn nào bằng cách gửi một biểu tượng emoji ngay trên chính tin nhắn đó. Việc bày tỏ cảm xúc có thể được sử dụng cho bất kỳ mục đích nào bao gồm bỏ phiếu, kiểm tra các vật phẩm cần làm, thể hiện sự phấn khích, trả lời câu hỏi hoặc chỉ để giải trí.
 
-To add reaction to a message, hover your mouse over it, and click on the smiling face icon on the right of the message
-and choose an emoji.
+Để bày tỏ cảm xúc trên tin nhắn, bạn đưa chuột tới tin nhắn đó, nhấn chọn biểu tượng mặt cười ngay bên phải tin nhắn và chọn emoji mà bạn muốn thể hiện. 
 
-To remove an emoji reaction, click on the emoji below the message. To reiterate an existing emoji reaction that someone else posted, click on that emoji to add to that emoji's counter.
+Để xóa biểu tượng emoji, nhấn chọn vào emoji đó trên tin nhắn. Để nhắc lại biểu tượng emoji hiện có mà người khác đã đăng, hãy nhấn vào biểu tượng emoji đó để thêm emoji tương tự.
 
-### Liên kết tin nhắn
+### Tạo đường dẫn tin nhắn
 
-Permalinking a message creates a link directing to that message, also if you post a permalink on another channel it creates a preview with the contents of the message.
+Tạo đường dẫn tin nhắn là để tạo một liên kết tới tin nhắn đó, đồng thời nếu bạn gửi một đường dẫn tin nhắn đó tới một nhóm khác thì nội dung của tin nhắn đó sẽ được hiển thị bên trong cuộc hội thoại.
 
-To permalink a message simply click on the `permalink` option on the message actions menu and the link will be copied to your clipboard.
+Để tạo một đường dẫn tin nhăn, người dùng chỉ cần nhấn vào phần tùy chỉnh `liên kết` trong bảng hiển thị các hành động của tin nhắn và đường dẫn sẽ được sao chép vào bộ nhớ.
 
 ### Sao chép tin nhắn
 
-Để sao chép nội dung tin nhắn , chỉ cần nhấp vào tùy chọn `sao chép` trên menu tác vụ tin nhắn.
+Để sao chép nội dung tin nhắn, chỉ cần nhấn vào tùy chọn `sao chép` trên menu tác vụ tin nhắn.
 
 ### Trả lời tin nhắn
 
-Replying to a message will create a attachment showing the message you wish to reply after the sent text.
+Khi bạn trả lời tin nhắn của ai đó sẽ tự động tạo một tệp đính kèm hiển thị ngay bên dưới tin nhắn đó.
 
-Replying to a message will trigger a notification to the replied message sender by using an `@` mention.
+Việc trả lời tin nhắn sẽ gửi thông báo cho người nhận bằng cách sử dụng `@` đề nhắc.
 
-To reply to a message, click on the `reply` option on the message actions menu and write your message after the link that was inserted on the message input.
-
-Replying to a already replied message will create a string of messages, showing every message quoted before the current one.
+Để trả lời một tin nhắn, nhấn chọn `trả lời` trên menu tác vụ tin nhắn và soạn tin nhắn của bạn, sau đó trả lời tin nhắn đó sẽ được hiển thị ở đầu cuộc hội thoại.
 
 ### Trích dẫn tin nhắn
 

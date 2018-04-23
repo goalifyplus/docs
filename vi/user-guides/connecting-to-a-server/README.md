@@ -22,6 +22,6 @@ Nếu bạn đang sử dụng ứng dụng Goalify.Chat, bạn có thể kết n
 
 If you are using a Goalify.Chat desktop application you can connect to multiple Goalify.Chat servers.
 
-Để có thể thêm một server mới, nhấp chuột vào ký hiệu **+** dưới danh sách server ở bên trái và làm theo [hướng dẫn](../connecting-to-a-server/) để kết nối tới Goalify.Chat server.
+Để có thể thêm một server mới, nhấn chuột vào ký hiệu **+** dưới danh sách server ở bên trái và làm theo [hướng dẫn](../connecting-to-a-server/) để kết nối tới Goalify.Chat server.
 
 ## Sử dụng ứng dụng di động
