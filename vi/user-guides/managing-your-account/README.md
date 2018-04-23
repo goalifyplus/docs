@@ -24,7 +24,7 @@ Kích hoạt hoặc tắt tất cả thông báo tin nhắn trên máy tính, ki
 - Chế độ hiển thị
     - Thông thường: khoảng cách mặc định giữa các tin nhắn
     - Cozy: khoảng cách rộng hơn giữa các tin nhắn (ít trên màn hình)
-    - Compact: khoảng cách ít hơn giữa các tin nhắn (nhiều hơn trên màn hình)
+    - Compact: khoảng cách ít hơn giữa các tin nhắn (nhiều hơn trên màn hình)
 - Email thông báo ngoại tuyến
     - Tắt
     - Tất cả Mention/DM

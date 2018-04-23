@@ -1,6 +1,6 @@
 # Đăng ký tài khoản
 
-Để có thể truy cập vào Server, trước tiên bạn phải đăng ký một tài khoản bằng cách sử dụng một trong nhiều dịch vụ OAuth được hỗ trợ (nếu Server mong muốn kích hoạt các dịch vụ này) và sau đó [đăng nhập](../ login /).
+Để có thể truy cập vào Server, trước tiên bạn phải đăng ký một tài khoản bằng cách sử dụng một trong nhiều dịch vụ OAuth được hỗ trợ (nếu Server mong muốn kích hoạt các dịch vụ này) và sau đó [đăng nhập](../login/).
 
 ## Đăng ký thủ công
 

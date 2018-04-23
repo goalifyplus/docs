@@ -2,7 +2,7 @@
 
 Cuộc trò chuyện trong Goalify.Chat được tạo trong __nhóm__. Các nhóm là các phòng trò chuyện với nhiều chức năng khác nhau.
 
-Có ba loại phòng: [Phòng công khai](#public-channels), [phòng riêng tư](#private-groups) và [Tin nhắn 1-on-1][#direct-messages].
+Có ba loại phòng: [Nhóm công khai](#nhóm-công-khai), [Nhóm riêng tư](#nhóm-riêng-tư) và [Tin nhắn 1-on-1](#tin-nhắn-trực-tiếp).
 
 ## Nhóm công khai
 
