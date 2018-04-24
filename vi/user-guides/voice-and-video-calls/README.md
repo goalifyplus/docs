@@ -1,6 +1,6 @@
-# Voice and Video Calls
+# Gọi âm thanh và hình ảnh
 
-Sử dụng WebRTC cho video and voice calls
+Sử dụng WebRTC cho gọi âm thanh và hình ảnh
 
 ## Những thứ bạn cần
 
