@@ -46,7 +46,7 @@ These settings are related to the Iframe Integration, please se the [Iframe inte
     - Public: The form will be public and anyone will be able to access;
     - Disabled: The form will be disable and users wont be able to register through it;
     - Secret URL: The form will be only accessible using a specific URL;
-- **Registration Form Secret URL**: String to be added to the secret URL. Is recommended to use a random string for that. Example: `https://demo.goalify.chat/register/[secret_hash]`.
+- **Registration Form Secret URL**: String to be added to the secret URL. Is recommended to use a random string for that. Example: `https://public.goalify.chat/register/[secret_hash]`.
 - **Registration Form Link Replacement Text**: Text to be shown in place of the registration form when the registration form is disabled.
 - **Registration with Authentication Services**: Set this to true to allow registration with third party authentication services like Google or Twitter.
 - **Default Roles for Authentication Services**: Default roles users will be given when registering through authentication services.

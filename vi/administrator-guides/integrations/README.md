@@ -64,8 +64,8 @@ class Script {
         // "attachments": [{
         //   "color": "#FF0000",
         //   "author_name": "Rocket.Cat",
-        //   "author_link": "https://demo.goalify.chat/direct/rocket.cat",
-        //   "author_icon": "https://demo.goalify.chat/avatar/rocket.cat.jpg",
+        //   "author_link": "https://public.goalify.chat/direct/rocket.cat",
+        //   "author_icon": "https://public.goalify.chat/avatar/rocket.cat.jpg",
         //   "title": "Goalify.Chat",
         //   "title_link": "https://docs.goalify.chat",
         //   "text": "Goalify.Chat, the best open source chat",
@@ -178,8 +178,8 @@ class Script {
           // "attachments": [{
           //   "color": "#FF0000",
           //   "author_name": "Rocket.Cat",
-          //   "author_link": "https://demo.goalify.chat/direct/rocket.cat",
-          //   "author_icon": "https://demo.goalify.chat/avatar/rocket.cat.jpg",
+          //   "author_link": "https://public.goalify.chat/direct/rocket.cat",
+          //   "author_icon": "https://public.goalify.chat/avatar/rocket.cat.jpg",
           //   "title": "Goalify.Chat",
           //   "title_link": "https://docs.goalify.chat",
           //   "text": "Goalify.Chat, the best open source chat",
@@ -226,8 +226,8 @@ class Script {
         // "attachments": [{
         //   "color": "#FF0000",
         //   "author_name": "Rocket.Cat",
-        //   "author_link": "https://demo.goalify.chat/direct/rocket.cat",
-        //   "author_icon": "https://demo.goalify.chat/avatar/rocket.cat.jpg",
+        //   "author_link": "https://public.goalify.chat/direct/rocket.cat",
+        //   "author_icon": "https://public.goalify.chat/avatar/rocket.cat.jpg",
         //   "title": "Goalify.Chat",
         //   "title_link": "https://docs.goalify.chat",
         //   "text": "Goalify.Chat, the best open source chat",
