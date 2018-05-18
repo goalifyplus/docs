@@ -4,7 +4,7 @@ The CSV importer allows you to import your own plain text files, however it does
 
 ## The Zip File
 
-The zip file must be a **flat zip**, which means there can **not** be a "root" or "sub" folder in which the items reside in the zip file. The importer looks for the files `channels.csv` and `users.csv` immediately inside the zip and not inside of any folder. If you have any questions about this, please ask in [#support channel on the Community server](https://demo.goalify.chat/channel/support).
+The zip file must be a **flat zip**, which means there can **not** be a "root" or "sub" folder in which the items reside in the zip file. The importer looks for the files `channels.csv` and `users.csv` immediately inside the zip and not inside of any folder. If you have any questions about this, please ask in [#support channel on the Community server](https://public.goalify.chat/channel/support).
 
     fileToImport.zip
     ├── channels.csv
